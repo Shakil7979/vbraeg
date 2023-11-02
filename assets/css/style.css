@@ -180,6 +180,9 @@ html{
 	right: -11px;
 }
 
+.header_menu ul li:nth-child(3) a img {
+	width: 33px;
+}
 
 
    /*********************************/
