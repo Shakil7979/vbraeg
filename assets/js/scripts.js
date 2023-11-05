@@ -7,4 +7,13 @@ $(document).ready(function(){
         margin: 50,
         autoplay:true
     });
+    $(".blog_carousel").owlCarousel({
+        loop:true, 
+        nav:true,
+        dots:false,
+        items:2,
+        margin: 30,
+        autoplay:true,
+        navText: ["<img src='assets/images/blog/prev.png'>","<img src='assets/images/blog/next.png'>"]
+    });
 })
