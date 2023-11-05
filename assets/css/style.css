@@ -358,10 +358,19 @@ html{
 
 .banner_btn ul li a img {
 	width: 111px;
+  border: 5px solid #303030;
+  border-radius: 30px;
 }
 
 .banner_btn ul li a.active img {
 	width: 175px;
+}
+
+.banner_first_five,
+.banner_first_second,
+.banner_first_third,
+.banner_first_four{ 
+  display: none;
 }
 
 
