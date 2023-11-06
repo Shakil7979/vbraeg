@@ -14,7 +14,7 @@ $(document).ready(function(){
         items:2,
         margin: 30,
         autoplay:true,
-        navText: ["<img src='assets/images/blog/prev.png'>","<img src='assets/images/blog/next.png'>"]
+        navText: ["<img src='assets/images/home/blog/prev.png'>","<img src='assets/images/home/blog/next.png'>"]
     });
 
 

@@ -229,7 +229,7 @@ html{
 }
 
 .banner_main {
-	background: url(../images/banner/bg.png) no-repeat scroll center center / cover;
+	background: url(../images/home/banner/bg.png) no-repeat scroll center center / cover;
 	padding: 110px 70px 365px 70px;
 	border-radius: 30px;
 	position: relative;
@@ -249,7 +249,7 @@ html{
 	width: 248px;
 }
 
-.banner_content p span{
+.banner_content > p span{
 	color: #FFF; 
 	font-size: 18px;
 	font-style: normal;
@@ -1212,6 +1212,202 @@ html{
 	border: 1px solid #FC00FF;
 }
 
+
+   /*********************************/
+  /*********** BLOG BANNER CSS**********/
+ /********************************/
+
+ .blog_banner_aritcle {
+	margin: 51px 0 42px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.blog_banner_aritcle ul li h3 {
+	color: #FFF;
+	font-family: 'Suisse Intl';
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.blog_banner_aritcle ul li a {
+	padding: 11px 14px;
+	border: 1px solid #FFF;
+	color: #FFF; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: inline-block;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+.blog_banner_aritcle ul li a:hover,
+.blog_banner_aritcle ul li a.active {
+	background: linear-gradient(280deg, #FC00FF -11.45%, #00DBDE 106.95%);
+	border: 1px solid transparent;
+}
+
+.blog_banner_aritcle ul {
+	display: flex;
+	gap: 33px;
+}
+
+.blog_search {
+	position: relative;
+	width: 100%;
+	max-width: 350px;
+}
+
+.blog_search input {
+	width: 100%; 
+	margin: 0 auto;
+	color: #B2B8C2;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 11px 44px 11px 23px;
+	background: #1E2127;
+	border: none;
+	border-radius: 15px;
+}
+
+.blog_search button img {
+	width: 22px;
+}
+
+.blog_search button {
+	background: transparent;
+	border: none;
+	position: absolute;
+	top: 10px;
+	right: 12px;
+}
+
+.blog_banenr_time li img {
+	width: 33px !important;
+}
+
+.blog_banenr_time li > p {
+	color: #787A7D;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0 !important;
+}
+
+.blog_banenr_time li {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+}
+
+.blog_banenr_time {
+	display: flex;
+	gap: 22px;
+}
+
+.blog_banner_cat ul li a {
+	background: #FFF;
+	padding: 4px 5px;
+	color: #000; 
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.blog_banner_cat ul {
+	display: flex;
+	gap: 11px;
+}
+
+.blog_bg{
+	background: url(../images/blog/banner/bg.png) no-repeat scroll center center / cover;
+}
+
+.blog_banner_area {
+	margin-bottom: 202px;
+}
+
+.latest_blog_area{
+	margin-bottom: 196px;
+}
+
+.latest_blog_singal > img {
+	width: 100%;
+}
+
+.latest_blogs {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.latest_blog_singal {
+	flex: 0 0 32%;
+	background: #1E2127;
+	margin-bottom: 81px;
+	padding: 27px 24px 40px 24px;
+	border-radius: 40px;
+}
+
+.latest_blog_singal h3 {
+	color: #FFF;
+	font-family: 'Suisse Intl';
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 25px 0 35px 0;
+	width: 100%;
+	max-width: 83%;
+}
+
+.blog_item_time {
+	flex-direction: column;
+}
+
+.latest_blog_pagination ul {
+	display: flex;
+	gap: 23px;
+	justify-content: center;
+}
+
+.latest_blog_pagination ul li a {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border-radius: 100%;
+	border: 1px solid #fff;
+	color: #FFF;
+	font-family: 'Inter', sans-serif; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s;
+}
+
+.latest_blog_pagination ul li a.active,
+.latest_blog_pagination ul li a:hover{
+	background: linear-gradient(232deg, #FC00FF -2.29%, #00DBDE 104.47%);
+	color: #FFF;
+	border: 1px solid transparent;
+}
+
+.latest_blog_pagination{
+	margin-top: 20px;
+}
 
    /*********************************/
   /*********** HEADER CSS**********/
