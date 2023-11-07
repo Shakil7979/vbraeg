@@ -29,6 +29,7 @@
       <div class="container">
         <div class="header">
           <div class="logo">
+            <a href="#" id="mobile_bars" class="desktop_hide"><img src="assets/images/bars.png" alt=""></a>
             <a href="#"><img src="assets/images/logo.png" alt="logo"></a>
           </div>
           <div class="search_header">
@@ -37,7 +38,8 @@
           </div>
           <div class="header_menu">
             <ul>
-              <li><a href="#"><img src="assets/images/home/header/doller.png" alt=""></a></li>
+              <li class="desktop_hide"><a class="search_click" href="#"><img src="assets/images/home/header/m_search.png" alt=""></a></li>
+              <li class="mobile_hide"><a href="#"><img src="assets/images/home/header/doller.png" alt=""></a></li>
               <li><a href="#"><img src="assets/images/home/header/heart.png" alt=""></a></li>
               <li><a href="#"><img src="assets/images/home/header/cart.png" alt=""><span>2</span></a></li>
               <li><a href="#"><img src="assets/images/home/header/user.png" alt=""></a></li>
@@ -48,21 +50,31 @@
     </header>
     <!--**************END HEADER AREA**************-->
 
+
     <main class="main_area">
  
       <!--**************START BANNER AREA**************-->
       <section class="banner_area blog_banner_area">
         <div class="container">
           <div class="blog_banner_aritcle">
-            <ul>
-              <li><h3>Blog Articles</h3></li>
+            <div class="mobile_on_search desktop_hide">
+              <div class="mobile_search">
+                <h3>Blog Articles</h3> 
+                <div class="blog_search">
+                  <input type="search" name="" placeholder="Search blog article..." id="">
+                  <button><img src="assets/images/home/header/search.png" alt=""></button>
+                </div>
+              </div>
+            </div>
+            <h3 class="mobile_hide">Blog Articles</h3> 
+            <ul> 
               <li><a href="#" class="active">All</a></li>
               <li><a href="#">Gaming</a></li>
               <li><a href="#">Investment</a></li>
               <li><a href="#">Software</a></li>
               <li><a href="#">News</a></li>
             </ul>
-            <div class="blog_search">
+            <div class="blog_search mobile_hide">
               <input type="search" name="" placeholder="Search blog article..." id="">
               <button><img src="assets/images/home/header/search.png" alt=""></button>
             </div>
@@ -160,83 +172,101 @@
             <!-- single latest blogs  -->
             <div class="latest_blog_singal">
               <img src="assets/images/blog/blog/1.png" alt="">
-              <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
-              <ul class="blog_banenr_time blog_item_time">
-                <li><span class="color_price">19 Sep, 23</span></li>
-                <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
-              </ul> 
+              <div class="latest_blog_contt">
+                <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
+                <ul class="blog_banenr_time blog_item_time">
+                  <li><span class="color_price">19 Sep, 23</span></li>
+                  <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
+                </ul> 
+              </div> 
             </div>
             <!-- single latest blogs  -->
             <div class="latest_blog_singal">
               <img src="assets/images/blog/blog/2.png" alt="">
-              <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
-              <ul class="blog_banenr_time blog_item_time">
-                <li><span class="color_price">19 Sep, 23</span></li>
-                <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
-              </ul> 
+              <div class="latest_blog_contt"> 
+                <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
+                <ul class="blog_banenr_time blog_item_time">
+                  <li><span class="color_price">19 Sep, 23</span></li>
+                  <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
+                </ul>  
+              </div>
             </div>
             <!-- single latest blogs  -->
             <div class="latest_blog_singal">
               <img src="assets/images/blog/blog/3.png" alt="">
-              <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
-              <ul class="blog_banenr_time blog_item_time">
-                <li><span class="color_price">19 Sep, 23</span></li>
-                <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
-              </ul> 
+              <div class="latest_blog_contt"> 
+                <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
+                <ul class="blog_banenr_time blog_item_time">
+                  <li><span class="color_price">19 Sep, 23</span></li>
+                  <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
+                </ul> 
+            </div>
             </div>
             <!-- single latest blogs  -->
             <div class="latest_blog_singal">
               <img src="assets/images/blog/blog/4.png" alt="">
-              <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
-              <ul class="blog_banenr_time blog_item_time">
-                <li><span class="color_price">19 Sep, 23</span></li>
-                <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
-              </ul> 
+              <div class="latest_blog_contt"> 
+                <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
+                <ul class="blog_banenr_time blog_item_time">
+                  <li><span class="color_price">19 Sep, 23</span></li>
+                  <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
+                </ul> 
+              </div>
             </div>
             <!-- single latest blogs  -->
             <div class="latest_blog_singal">
               <img src="assets/images/blog/blog/5.png" alt="">
-              <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
-              <ul class="blog_banenr_time blog_item_time">
-                <li><span class="color_price">19 Sep, 23</span></li>
-                <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
-              </ul> 
+              <div class="latest_blog_contt"> 
+                <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
+                <ul class="blog_banenr_time blog_item_time">
+                  <li><span class="color_price">19 Sep, 23</span></li>
+                  <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
+                </ul> 
+              </div>
             </div>
             <!-- single latest blogs  -->
             <div class="latest_blog_singal">
               <img src="assets/images/blog/blog/6.png" alt="">
-              <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
-              <ul class="blog_banenr_time blog_item_time">
-                <li><span class="color_price">19 Sep, 23</span></li>
-                <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
-              </ul> 
+              <div class="latest_blog_contt"> 
+                <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
+                <ul class="blog_banenr_time blog_item_time">
+                  <li><span class="color_price">19 Sep, 23</span></li>
+                  <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
+                </ul> 
+              </div>
             </div>
             <!-- single latest blogs  -->
             <div class="latest_blog_singal">
               <img src="assets/images/blog/blog/1.png" alt="">
-              <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
-              <ul class="blog_banenr_time blog_item_time">
-                <li><span class="color_price">19 Sep, 23</span></li>
-                <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
-              </ul> 
+              <div class="latest_blog_contt"> 
+                <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
+                <ul class="blog_banenr_time blog_item_time">
+                  <li><span class="color_price">19 Sep, 23</span></li>
+                  <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
+                </ul> 
+              </div>
             </div>
             <!-- single latest blogs  -->
             <div class="latest_blog_singal">
               <img src="assets/images/blog/blog/2.png" alt="">
-              <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
-              <ul class="blog_banenr_time blog_item_time">
-                <li><span class="color_price">19 Sep, 23</span></li>
-                <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
-              </ul> 
+              <div class="latest_blog_contt"> 
+                <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
+                <ul class="blog_banenr_time blog_item_time">
+                  <li><span class="color_price">19 Sep, 23</span></li>
+                  <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
+                </ul>
+              </div> 
             </div>
             <!-- single latest blogs  -->
             <div class="latest_blog_singal">
               <img src="assets/images/blog/blog/3.png" alt="">
-              <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
-              <ul class="blog_banenr_time blog_item_time">
-                <li><span class="color_price">19 Sep, 23</span></li>
-                <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
-              </ul> 
+              <div class="latest_blog_contt"> 
+                <h3>Game Keys The Best Websites for Affordable Gaming Deals</h3>
+                <ul class="blog_banenr_time blog_item_time">
+                  <li><span class="color_price">19 Sep, 23</span></li>
+                  <li><img src="assets/images/home/blog/watch.png" alt=""><p>3 min read</p></li>
+                </ul> 
+              </div>
             </div> 
           </div>
           <div class="latest_blog_pagination">
@@ -245,9 +275,9 @@
               <li><a href="#" class="active">1</a></li>
               <li><a href="#">2</a></li>
               <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-              <li><a href="#">6</a></li>
+              <li class="mobile_hide"><a href="#">4</a></li>
+              <li class="mobile_hide"><a href="#">5</a></li>
+              <li class="mobile_hide"><a href="#">6</a></li>
               <li><a href="#"><i class="fa-solid fa-chevron-right"></i></a></li>
             </ul>
           </div>
@@ -258,6 +288,7 @@
     </main>
 
     
+
     <!--**************START FOOTER AREA**************-->
     <footer class="footer_area">
       <div class="container">
@@ -281,12 +312,13 @@
                   <img src="assets/images/home/footer/check.png" alt="">
                   <p>Safe & Secure</p>
                 </div>
-                <p>100% Secure, 24/7 Support</p>
+                <p class="footer_tip_border">100% Secure, 24/7 Support</p>
+                <p class="color_price">100% Money Back</p>
               </div>
-              <p class="color_price">100% Money Back</p>
+              
             </div>
           </div>
-          <div class="single_footer">
+          <div class="single_footer single_sec_footer">
             <h3>Company</h3>
             <ul>
               <li><a href="#">Home</a></li>
@@ -295,7 +327,7 @@
               <li><a href="#">Contact Us</a></li> 
             </ul>
           </div>
-          <div class="single_footer">
+          <div class="single_footer single_sec_footer">
             <h3>Orders</h3>
             <ul>
               <li><a href="#">My Orders</a></li>

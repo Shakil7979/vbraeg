@@ -211,6 +211,15 @@
     .part_right {
         padding: 62px 58px 46px 58px; 
     }
+    .blog_banner_aritcle h3 { 
+        font-size: 25px; 
+    }
+    .blog_banner_aritcle ul li a { 
+        font-size: 18px; 
+    }
+    .blog_search input { 
+        font-size: 18px; 
+    }
 }
 
 @media all and (max-width:1200px){
@@ -310,6 +319,13 @@
         height: 22px; 
         font-size: 14px; 
     }
+    .latest_blog_singal { 
+        margin-bottom: 40px;
+    }
+    .latest_blog_singal h3 { 
+        font-size: 16px; 
+        margin: 18px 0 15px 0; 
+    }
     .deal_count_down {
         display: none;
     }
@@ -336,6 +352,19 @@
      }
      .deal_single {
         flex: 0 0 49%; 
+    }
+    .mobile_on_search {
+        width: 100%;
+    }
+    .mobile_search {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .blog_banner_aritcle { 
+        flex-direction: column;
+        gap: 10px;
     }
     .mobile_comming_flex {
         display: flex;
@@ -560,6 +589,67 @@
         padding: 0 27px;
         height: 445px;
     } 
+    .latest_blog_pagination ul li a {
+        width: 33px;
+        height: 33px; 
+        font-size: 13px; 
+    }
+    .latest_blog_singal {
+        flex: 0 0 100%;
+        display: flex;
+        gap: 13px;
+    }
+    .latest_blog_singal > img {
+        width: 121px;
+    }
+    .blog_banenr_time {
+        display: flex;
+        gap: 0;
+    }
+    .latest_blog_singal { 
+        padding: 14px 10px;
+        border-radius: 20px;
+        margin-bottom: 19px;
+    }
+    .blog_banenr_time li > p { 
+        font-size: 14px; 
+    }
+    .latest_blogs { 
+        flex-direction: column;
+    }
+    .blog_banenr_time li img {
+        width: 17px !important;
+    }
+    .latest_blog_singal h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+    .blog_banenr_time li span {
+        margin: 8px 0;
+    }
+    .blog_banner_aritcle ul { 
+        gap: 12px;
+    }
+    .blog_search button img {
+        width: 16px;
+    }
+    .blog_search button { 
+        top: 6px; 
+    }
+    .blog_search { 
+        max-width: 186px;
+    }
+    .blog_search input {
+        font-size: 12px;
+    }
+    .blog_banner_aritcle ul li a {
+        font-size: 12px;
+        padding: 8px 10px;
+        border-radius: 5px;
+    }
+    .blog_banner_aritcle h3 {
+        font-size: 16px;
+    }
     .footer_copy p {
         font-size: 14px;
     }
