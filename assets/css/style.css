@@ -599,6 +599,7 @@ html{
 .deal_header {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	margin-bottom: 50px;
 }
 
@@ -607,6 +608,10 @@ html{
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+
+.deal_header_none{
+	display: none;
+ }
 
 .deal_single {
 	flex: 0 0 24%;
@@ -700,7 +705,7 @@ html{
 }
 
 .deal_icon li img {
-	width: 38px;
+	width: 38px !important;
 }
 
 .deal_icon li span {
@@ -711,8 +716,9 @@ html{
 }
 
 .deal_icon li:nth-child(2) img {
-	width: 30px;
+	width: 30px !important;
 }
+
 .deal_icon_width,
 .deal_icon li:nth-child(3) img ,
 .deal_icon li:nth-child(4) img {
@@ -833,7 +839,8 @@ html{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-  margin-bottom: 50px;
+	margin-bottom: 50px;
+	align-items: center;
 }
 
 .offer_items li img {
@@ -961,26 +968,33 @@ html{
   margin-bottom: 174px;
 }
 
+
+.comming_soon .owl-nav img ,
 .blog_carousel .owl-nav img {
 	width: 52px;
 }
 
+.comming_soon .owl-prev:hover ,
+.comming_soon .owl-next:hover ,
 .blog_carousel .owl-prev:hover ,
 .blog_carousel .owl-next:hover {
 	background: transparent !important;
   opacity: 0.83;
 }
 
+.comming_soon,
 .blog_carousel{
   position: relative;
 }
 
+.comming_soon .owl-prev ,
 .blog_carousel .owl-prev {
 	position: absolute;
 	left: -80px;
 	top: 32%;
 }
 
+.comming_soon .owl-next ,
 .blog_carousel .owl-next {
 	position: absolute;
 	right: -80px;
@@ -1134,7 +1148,7 @@ html{
   padding-bottom: 15px;
 }
 
-.footer_support {
+.footer_tip_border {
 	border-bottom: 2px solid #4A4A4A;
 	margin-bottom: 16px;
 }
@@ -1146,6 +1160,7 @@ html{
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+	opacity: 0.4;
 }
 
 .single_footer ul li { 
@@ -1609,6 +1624,35 @@ html{
 }
 
 
+   /*********************************/
+  /*********** For Coming soon CSS**********/
+ /********************************/
+
+ .comming_area{
+	margin-bottom: 172px;
+ }
+   /*********************************/
+  /*********** For responsive CSS**********/
+ /********************************/
+
+ .desktop_hide{
+	display: none;
+ }
+ .mobile_hide{
+	display: block;
+ }
+ .desktop_deal_main{
+	display: block;
+}
+.mobile_none_deal{
+	display: none;
+}
+.offer_desktop{
+	display: block;
+}
+.offer_mobile{
+	display: none;
+}
    /*********************************/
   /*********** HEADER CSS**********/
  /********************************/
