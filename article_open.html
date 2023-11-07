@@ -24,11 +24,13 @@
   <body>
 
     
+    
     <!--**************START HEADER AREA**************--> 
     <header class="header_area">
       <div class="container">
         <div class="header">
           <div class="logo">
+            <a href="#" id="mobile_bars" class="desktop_hide"><img src="assets/images/bars.png" alt=""></a>
             <a href="#"><img src="assets/images/logo.png" alt="logo"></a>
           </div>
           <div class="search_header">
@@ -37,7 +39,8 @@
           </div>
           <div class="header_menu">
             <ul>
-              <li><a href="#"><img src="assets/images/home/header/doller.png" alt=""></a></li>
+              <li class="desktop_hide"><a class="search_click" href="#"><img src="assets/images/home/header/m_search.png" alt=""></a></li>
+              <li class="mobile_hide"><a href="#"><img src="assets/images/home/header/doller.png" alt=""></a></li>
               <li><a href="#"><img src="assets/images/home/header/heart.png" alt=""></a></li>
               <li><a href="#"><img src="assets/images/home/header/cart.png" alt=""><span>2</span></a></li>
               <li><a href="#"><img src="assets/images/home/header/user.png" alt=""></a></li>
@@ -54,15 +57,24 @@
       <section class="banner_area article_open_area">
         <div class="container">
           <div class="blog_banner_aritcle">
-            <ul>
-              <li><h3>Blog Articles</h3></li>
+            <div class="mobile_on_search desktop_hide">
+              <div class="mobile_search">
+                <h3>Blog Articles</h3> 
+                <div class="blog_search">
+                  <input type="search" name="" placeholder="Search blog article..." id="">
+                  <button><img src="assets/images/home/header/search.png" alt=""></button>
+                </div>
+              </div>
+            </div>
+            <h3 class="mobile_hide">Blog Articles</h3> 
+            <ul> 
               <li><a href="#" class="active">All</a></li>
               <li><a href="#">Gaming</a></li>
               <li><a href="#">Investment</a></li>
               <li><a href="#">Software</a></li>
               <li><a href="#">News</a></li>
             </ul>
-            <div class="blog_search">
+            <div class="blog_search mobile_hide">
               <input type="search" name="" placeholder="Search blog article..." id="">
               <button><img src="assets/images/home/header/search.png" alt=""></button>
             </div>
@@ -91,8 +103,8 @@
         <div class="container">
             <div class="article_open_main">
                 <div class="article_open_left">
-                    <p class="pra_1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s.</p>
-                    <div class="deal_header arrival_header article_shape"> 
+                    <p class="pra_1 boder_bottom">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s.</p>
+                    <div class="deal_header arrival_header article_shape mobile_hide"> 
                         <span></span>  
                     </div>
                     <div class="article_open_title">
@@ -116,6 +128,20 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="article_open_right desktop_hide">
+                      <div class="article_tags">
+                          <h3>Browse by Tags</h3>
+                          <ul>
+                              <li><a href="#">GAME</a></li>
+                              <li><a href="#">STRAY</a></li>
+                              <li><a href="#">GAMING NEWS</a></li>
+                              <li><a href="#">WHICH CONSOLE IS BEST VALUE FOR MONEY?</a></li>
+                              <li><a href="#">GET YOUR PC GAME KEYS NOW: LATEST</a></li>
+                              <li><a href="#">IS SIFU FOR PC?</a></li>
+                              <li><a href="#">DESTINY</a></li>
+                          </ul>
+                      </div>
+                  </div>
                     <div class="article_recomendation">
                         <div class="deal_header arrival_header">
                             <div class="deal_header_title">
@@ -226,7 +252,7 @@
 
 
 
-                <div class="article_open_right">
+                <div class="article_open_right mobile_hide">
                     <div class="article_tags">
                         <h3>Browse by Tags</h3>
                         <ul>
@@ -272,12 +298,13 @@
                   <img src="assets/images/home/footer/check.png" alt="">
                   <p>Safe & Secure</p>
                 </div>
-                <p>100% Secure, 24/7 Support</p>
+                <p class="footer_tip_border">100% Secure, 24/7 Support</p>
+                <p class="color_price">100% Money Back</p>
               </div>
-              <p class="color_price">100% Money Back</p>
+              
             </div>
           </div>
-          <div class="single_footer">
+          <div class="single_footer single_sec_footer">
             <h3>Company</h3>
             <ul>
               <li><a href="#">Home</a></li>
@@ -286,7 +313,7 @@
               <li><a href="#">Contact Us</a></li> 
             </ul>
           </div>
-          <div class="single_footer">
+          <div class="single_footer single_sec_footer">
             <h3>Orders</h3>
             <ul>
               <li><a href="#">My Orders</a></li>

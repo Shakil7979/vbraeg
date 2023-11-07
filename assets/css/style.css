@@ -1615,8 +1615,13 @@ html{
 .form_group textarea {
 	height: 178px;
 	resize: none;
-	margin: 28px 0;
 }
+
+.form_group { 
+	margin-bottom: 28px;
+}
+
+
 
 .comment_btn {
 	border: none;
