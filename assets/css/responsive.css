@@ -1,7 +1,11 @@
-@media all and (max-width: 1550px){
-    .container { 
-        max-width: 1250px; 
+@media all and (min-width: 1660px){
+    .container{
+        max-width: 1750px;
     }
+}
+
+@media all and (max-width: 1550px){
+ 
     .search_header input { 
         max-width: 608px; 
     }
@@ -41,8 +45,8 @@
     .deal_price img {
         width: 111px;
     }
-    .deal_icon { 
-        gap: 20px; 
+    .deal_icon {
+        gap: 10px;
     }
     .deal_icon li img {
         width: 24px;
@@ -229,6 +233,15 @@
     }
     .article_tags ul li a { 
         font-size: 16px; 
+    }
+}
+
+@media all and (max-width: 1550px){
+    .search_header button { 
+        right: 44px;
+    }
+    .not_p { 
+        gap: 4px;
     }
 }
 

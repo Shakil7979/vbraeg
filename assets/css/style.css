@@ -83,11 +83,6 @@ html{
   scroll-behavior: smooth;
   overflow-x: hidden;
 } 
-.container  {
-  width: 100%;
-  max-width: 1664px;
-  margin: 0 auto;
-}
 
    /*********************************/
   /*********** HEADER CSS**********/
@@ -201,9 +196,9 @@ html{
 	width: 56px;
 }
 
-.banner_tab ul li a span {
+.banner_tab ul li span {
 	display: inline-block;
-	width: 2px; 
+	width: 3px; 
 	height: 50px;
 	background: #ffffff2e; 
 }
@@ -1658,6 +1653,25 @@ html{
 .offer_mobile{
 	display: none;
 }
+   /*********************************/
+  /*********** HEADER CSS**********/
+ /********************************/
+ .banner_tab.shop_tab ul li a {
+	width: 80px;
+	height: 80px; 
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.banner_tab.shop_tab ul li a.active,
+.banner_tab.shop_tab ul li a:hover{
+	background: linear-gradient(278deg, #FC00FF 7.51%, #00DBDE 105.77%);
+}
+
+
    /*********************************/
   /*********** HEADER CSS**********/
  /********************************/
