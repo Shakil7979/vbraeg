@@ -130,7 +130,12 @@ $(document).ready(function(){
       items:4,
       margin: 30,
       autoplay:true, 
-      navText: ["<img src='assets/images/home/blog/prev.png'>","<img src='assets/images/home/blog/next.png'>"]
+      navText: ["<img src='assets/images/home/blog/prev.png'>","<img src='assets/images/home/blog/next.png'>"],
+      responsive : {  
+        1200 : { 
+          margin: 20,
+        }, 
+    }
   });
 
 
