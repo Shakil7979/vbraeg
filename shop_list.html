@@ -69,7 +69,7 @@
             <div class="shop_sub_tab">
                 <ul>
                     <li><a href="#">PlayStation Network</a></li>
-                    <li><a href="#">PS5</a></li>
+                    <li><a href="#" class="active">PS5</a></li>
                     <li><a href="#">PS4</a></li>
                     <li><a href="#">PS3</a></li>
                     <li><a href="#">PSVR</a></li>
@@ -82,7 +82,451 @@
     <main class="main_area">
         
         <!--**************END HEADER AREA**************-->
-
+        <section class="shop_list_area">
+          <div class="container">
+            <div class="shop_list">
+              <div class="shop_list_filter">
+                <div class="shop_filter_item">
+                  <div class="shop_filter_header">
+                    <h3>Delivery </h3>
+                    <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+                  </div>
+                  <div class="shop_filters">
+                    <ul>
+                      <li> 
+                        <div class="shop_filter_title">
+                          <img src="assets/images/shop_list/current.png" alt=""> <h4> Instant Delivery</h4>
+                        </div>
+                        <label class="toggle-control">
+                          <input type="checkbox" />
+                          <span class="control"></span>
+                        </label>
+                      </li>
+                      <li> 
+                        <div class="shop_filter_title">
+                          <img src="assets/images/shop_list/mouse.png" alt=""> <h4> Manually Delivery</h4>
+                        </div>
+                        <label class="toggle-control">
+                          <input type="checkbox" />
+                          <span class="control"></span>
+                        </label>
+                      </li> 
+                    </ul>
+                  </div>
+                </div>
+                <div class="shop_filter_item">
+                  <div class="shop_filter_header">
+                    <h3>Sort by </h3>
+                    <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+                  </div>
+                  <div class="shop_filters_list">
+                    <ul>
+                      <li><input type="radio" id="Sort" name="fav_language" value="HTML">
+                        <label for="Sort">Most Recent</label><br></li>
+                      <li><input type="radio" id="Sort1" name="fav_language" value="HTML">
+                        <label for="Sort1">Features Items</label><br></li>
+                      <li><input type="radio" id="Sort2" name="fav_language" value="HTML">
+                        <label for="Sort2">Best Sellers</label><br></li>
+                      <li><input type="radio" id="Sort3" name="fav_language" value="HTML">
+                        <label for="Sort3">Best Reviews</label><br></li>
+                      <li><input type="radio" id="Sort4" name="fav_language" value="HTML">
+                        <label for="Sort4">Lowest to highest price</label><br></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="shop_filter_item">
+                  <div class="shop_filter_header">
+                    <h3>Price </h3>
+                    <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+                  </div>
+                  <div class="shop_filters_list">
+                    <ul>
+                      <li><input type="radio" id="Price" name="fav_language" value="HTML">
+                        <label for="Price">$10 to $25</label><br></li>
+                      <li><input type="radio" id="Price1" name="fav_language" value="HTML">
+                        <label for="Price1">$25 to $50</label><br></li>
+                      <li><input type="radio" id="Price2" name="fav_language" value="HTML">
+                        <label for="Price2">$50 to $100</label><br></li>
+                      <li><input type="radio" id="Price3" name="fav_language" value="HTML">
+                        <label for="Price3">$100 to $200</label><br></li>
+                      <li><input type="radio" id="Price4" name="fav_language" value="HTML">
+                        <label for="Price4">From</label><br></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="shop_filter_item">
+                  <div class="shop_filter_header">
+                    <h3>Seller </h3>
+                    <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+                  </div>
+                  <div class="shop_filters_list">
+                    <ul>
+                      <li><input type="radio" id="Seller" name="fav_language" value="HTML">
+                        <label for="Seller">Seller Name</label><br></li> 
+                      <li><input type="radio" id="Seller" name="fav_language" value="HTML">
+                        <label for="Seller">Seller Name</label><br></li> 
+                      <li><input type="radio" id="Seller" name="fav_language" value="HTML">
+                        <label for="Seller">Seller Name</label><br></li> 
+                      <li><input type="radio" id="Seller" name="fav_language" value="HTML">
+                        <label for="Seller">Seller Name</label><br></li> 
+                      <li><input type="radio" id="Seller" name="fav_language" value="HTML">
+                        <label for="Seller">Seller Name</label><br></li> 
+                      <li><input type="radio" id="Seller" name="fav_language" value="HTML">
+                        <label for="Seller">Seller Name</label><br></li> 
+                      <li><input type="radio" id="Seller" name="fav_language" value="HTML">
+                        <label for="Seller">Seller Name</label><br></li> 
+                      <li><input type="radio" id="Seller" name="fav_language" value="HTML">
+                        <label for="Seller">Seller Name</label><br></li> 
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="shop_list_item">
+                <div class="shop_list_package">
+                  <div class="deal_main shop_deal_main"> 
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/2.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price">
+                        <p>From <br> <span>$70 to</span></p>
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/3.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price"> 
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/4.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price">
+                        <p>From <br> <span>$70 to</span></p>
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/2.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price">
+                        <p>From <br> <span>$70 to</span></p>
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/3.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price"> 
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/4.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price">
+                        <p>From <br> <span>$70 to</span></p>
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/2.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price">
+                        <p>From <br> <span>$70 to</span></p>
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/3.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price"> 
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/4.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price">
+                        <p>From <br> <span>$70 to</span></p>
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/2.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price">
+                        <p>From <br> <span>$70 to</span></p>
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/3.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price"> 
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/4.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price">
+                        <p>From <br> <span>$70 to</span></p>
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/2.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price">
+                        <p>From <br> <span>$70 to</span></p>
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/3.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price"> 
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                    <!-- deal single item  -->
+                    <div class="deal_single shop_list_single">
+                      <div class="deal_img">
+                        <img src="assets/images/home/deal/item/4.png" alt="">
+                        <a href="#" class="deal_heart"><img src="assets/images/home/deal/heart.png" alt="" ></a>
+                        <span>-25%</span>
+                      </div>
+                      <h3>Sekiro Shadows Die...</h3>
+                      <div class="deal_price">
+                        <p>From <br> <span>$70 to</span></p>
+                        <span class="color_price">$59,99</span>
+                        <img src="assets/images/home/deal/star.png" alt="">
+                      </div>
+                      <ul class="deal_icon">
+                        <li><img src="assets/images/home/deal/music.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/ball.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/phone.png" alt=""></li>  
+                        <li><span></span></li>
+                        <li><img src="assets/images/home/deal/user.png" alt=""></li>
+                        <li><img src="assets/images/home/deal/key.png" alt=""></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="latest_blog_pagination">
+                    <ul>
+                      <li><a href="#"><i class="fa-solid fa-chevron-left"></i></a></li>
+                      <li><a href="#" class="active">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li class="mobile_hide"><a href="#">4</a></li>
+                      <li class="mobile_hide"><a href="#">5</a></li>
+                      <li class="mobile_hide"><a href="#">6</a></li>
+                      <li><a href="#"><i class="fa-solid fa-chevron-right"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <!--**************END HEADER AREA**************-->
       
     </main>

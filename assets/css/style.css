@@ -1654,7 +1654,7 @@ html{
 	display: none;
 }
    /*********************************/
-  /*********** HEADER CSS**********/
+  /*********** SHOP LIST CSS**********/
  /********************************/
  .banner_tab.shop_tab ul li a {
 	width: 80px;
@@ -1672,9 +1672,208 @@ html{
 }
 
 
+.shop_sub_tab ul li a {
+	color: #FFF; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 10px 15px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.shop_sub_tab ul li a:hover,
+.shop_sub_tab ul li a.active {
+	border: 1px solid transparent;
+	background: linear-gradient(232deg, #FC00FF -2.29%, #00DBDE 104.47%);
+}
+
+.shop_sub_tab ul {
+	display: flex;
+	gap: 24px;
+}
+
+.shop_tab ul {
+	margin-bottom: -20px;
+}
+
+.tab_main_area {
+	margin-bottom: 80px;
+}
+
+.toggle-control {
+	display: block;
+	position: relative;
+	padding-left: 2.25rem;
+	margin-bottom: 0.75rem;
+	cursor: pointer;
+	font-size: 1.375rem;
+	user-select: none;
+  }
+  
+  .toggle-control input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+  }
+  .toggle-control input:checked ~ .control {
+	background: linear-gradient(232deg, #FC00FF -2.29%, #00DBDE 104.47%);
+}
+  .toggle-control input:checked ~ .control:after {
+	left: 1.438rem;
+  }
+  .toggle-control .control {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 24px;
+	width: 42px;
+	border-radius: 1.563rem;
+	background-color: darkgray;
+	transition: background-color 0.15s ease-in;
+}
+  .toggle-control .control:after {
+	content: "";
+	position: absolute;
+	left: 0.313rem;
+	top: 0.313rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 1.563rem;
+	background: white;
+	transition: left 0.15s ease-in;
+  }
+  
+  @media (prefers-color-scheme: light) {
+	html {
+	  background-color: var(--primary-color-light);
+	  color: var(--primary-color-dark);
+	}
+  }
+  
+  @media (prefers-color-scheme: dark) {
+	html {
+	  background-color: var(--primary-color-dark);
+	  color: var(--primary-color-light);
+	}
+  }
+
+  .shop_list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.shop_list_filter{
+	flex: 0 0 24%;
+}
+  
+.shop_list_item{
+	flex: 0 0 74%;
+}
+
+.shop_list_area{
+	margin-bottom: 127px;
+}
+
+.shop_filter_header h3 {
+	color: #FB01FF; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.shop_filter_item {
+	border: 1px solid #FC00FF;
+	padding: 21px 28px;
+	border-radius: 15px;
+	margin-bottom: 33px;
+}
+
+.shop_filter_header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 21px;
+	align-items: center;
+}
+
+.shop_filter_title h4 {
+	color: #FFF; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.shop_filter_title img {
+	width: 20px;
+}
+
+.shop_filter_title {
+	display: flex;
+	gap: 6px;
+	align-items: center;
+}
+
+.shop_filters ul li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 21px;
+}
+
+.shop_filter_header a i {
+	font-size: 24px;
+	color: #FB01FF;
+}
+
+.toggle-control .control::after {
+	width: 16px;
+	height: 16px;
+	top: 4px; 
+}
+
+.shop_filters_list ul li label {
+	color: #FFF; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.shop_filters_list input[type="radio"] {
+	border: none;
+	width: 32px;
+	height: 28px;
+	background: #fff;
+}
+
+.shop_filters_list ul li {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 19px;
+}
+
+.deal_single.shop_list_single {
+	flex: 0 0 32%;
+	border: 1px solid #FC00FF;
+	margin-bottom: 35px;
+}
+
+.deal_main.shop_deal_main {
+	margin-bottom: 85px;
+}
+
    /*********************************/
   /*********** HEADER CSS**********/
  /********************************/
+ 
 
 
 /* 
