@@ -1847,10 +1847,11 @@ html{
 }
 
 .shop_filters_list input[type="radio"] {
-	border: none;
+	border: none !important;
 	width: 32px;
 	height: 28px;
 	background: #fff;
+	accent-color: #FC00FF;
 }
 
 .shop_filters_list ul li {
@@ -1869,6 +1870,45 @@ html{
 .deal_main.shop_deal_main {
 	margin-bottom: 85px;
 }
+
+.from_price input {
+	width: 93.5px;
+	padding: 11px 21px;
+	box-sizing: border-box;
+	border: none;
+	background: #1E2127; 
+	border-radius: 10px;
+	color: #B2B8C2; 
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.from_price span {
+	color: #FFF; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.from_price {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+
+.color_price.shop_see_alll {
+	color: #FC00FF; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration-line: underline;
+}
+
 
    /*********************************/
   /*********** HEADER CSS**********/
