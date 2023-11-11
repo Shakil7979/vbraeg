@@ -297,6 +297,9 @@
     .deal_price img { 
         display: none;
     }
+    .deal_single.shop_list_single {
+        flex: 0 0 48%; 
+    }
 }   
 
 @media all and (max-width:1100px){ 
@@ -377,9 +380,35 @@
         height: 22px; 
         font-size: 14px; 
     }
+    
+    .deal_price img { 
+        display: block;
+    }
+    .shop_heder_mobil{
+        display: block;
+    }
+    .shop_list{
+        position: relative;
+    }
+    .shop_list_filter {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 100%;
+        background: #000;
+        z-index: 99;
+        top: 64px;
+        padding: 25px;
+        border-radius: 10px;
+        display: none;
+    }
     .desktop_hide{
         display: block;
      } 
+     .shop_list_item {
+        flex: 0 0 100%;
+    }
     .header { 
         position: relative;
     }
@@ -435,6 +464,10 @@
     .shop_sub_tab ul li a { 
         font-size: 14px; 
         padding: 4px 6px; 
+    }
+    .banner_tab.shop_tab ul li a {
+        width: 58px;
+        height: 58px; 
     }
      .article_open_right {
         margin-bottom: 50px;

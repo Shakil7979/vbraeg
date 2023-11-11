@@ -1909,6 +1909,10 @@ html{
 	text-decoration-line: underline;
 }
 
+.shop_heder_mobil{
+	display: none;
+}
+
 
    /*********************************/
   /*********** HEADER CSS**********/

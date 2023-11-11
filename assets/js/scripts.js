@@ -138,5 +138,12 @@ $(document).ready(function(){
     }
   });
 
+  
+  $(document).on('click','.filter_by',function(){
+    $('.shop_list_filter').slideToggle();
+
+    return false;
+  });
+
 
 })
