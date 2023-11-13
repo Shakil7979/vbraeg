@@ -1,0 +1,78 @@
+
+@media all and (max-width: 1550px){
+    .btn_c {
+        padding: 10px 16px;
+        font-size: 16px;
+    }
+    .ptb140 {
+        padding: 90px 0;
+    }
+    .p {
+        font-size: 16px;
+    }
+    .g-5, .gx-5 {
+        --bs-gutter-x: 1rem !important;
+    }
+    .g-5, .gy-5 {
+        --bs-gutter-y: 1rem !important;
+    }
+    .help_item_logo {
+        width: 50px;
+        height: 50px;
+    }
+    .help_item_logo img{
+        padding:8px;
+    }
+    .help_item_info h4 {
+        font-size: 18px;
+    }
+    .help_item_info p {
+        font-size: 15px;
+    }
+    .help_items {
+        padding: 20px;
+    }
+    .page_heading_item h3 {
+        font-size: 25px;
+    }
+    .search_headers input {
+        font-size: 16px;
+        padding: 6px 10px;
+        border-radius: 5px;
+    }
+    .search_headers button img {
+        width: 15px;
+    }
+}
+@media all and (max-width:1200px){
+    
+}
+@media all and (max-width:991px){
+    .need_help_heading {
+        margin-top: 80px;
+        margin-bottom:0px;
+    }
+}
+@media all and (max-width:767px){
+    .page_heading_item {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .page_heading_item span {
+        margin: 15px;
+    }
+    .help_item_logo {
+        margin-right: 15px;
+        width: 40px;
+        height: 40px;
+    }
+    .help_item_logo img {
+        max-width: 40px;
+    }
+    .need_help_heading {
+        text-align: center;
+    }
+    .btn_c {
+        padding: 8px 16px;
+    }
+}

@@ -93,6 +93,7 @@
     cursor: pointer;
     transition: 0.5s;
 	align-items: center;
+    padding-right: 10px;
 }
 .help_item_logo {
 	width: 75px;
@@ -103,6 +104,9 @@
 	justify-content: center;
     margin-right: 20px;
 	align-items: center;
+}
+.help_item_logo img{
+    max-width: 45px;
 }
 .help_items:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -134,7 +138,6 @@
 .need_help_heading p{
     margin-bottom: 35px;
 }
-.need_help_heading p a{}
 
 
 
