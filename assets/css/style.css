@@ -688,7 +688,7 @@ html{
 	height: 44px;
 }
 
-.deal_price img {
+.deal_price > img {
 	width: 160px;
 }
 
@@ -1899,7 +1899,6 @@ html{
 	gap: 6px;
 }
 
-
 .color_price.shop_see_alll {
 	color: #FC00FF; 
 	font-size: 24px;
@@ -1912,6 +1911,243 @@ html{
 .shop_heder_mobil{
 	display: none;
 }
+
+
+   /*********************************/
+  /******* PRODUCT DETAILS CSS*******/
+ /********************************/
+
+ .product_details {
+	display: flex;
+	justify-content: space-between;
+}
+
+.product_img {
+	flex: 0 0 calc(50% - 15px);
+}
+
+.product_img img {
+	width: 100%;
+}
+
+.product_detials_info{ 
+	flex: 0 0 calc(50% - 15px);
+	border: 1px solid #FC00FF;
+	padding: 23px 58px;
+	border-radius: 30px;
+}
+
+.product_alert p {
+	color: #FFF; 
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.product_alert i {
+	font-size: 28px;
+	color: #fff;
+}
+
+.product_alert {
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+}
+
+.product_title {
+	margin: 20px 0;
+	padding: 34px 0;
+	border-top: 1px solid #353535;
+	border-bottom: 1px solid #353535;
+}
+
+.product_share_star {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.product_star img {
+	width: 200px;
+}
+
+.product_star p {
+	color: #787A7D;
+	font-family: 'Inter', sans-serif; 
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.product_star {
+	display: flex;
+	align-items: center;
+	gap: 19px;
+}
+ 
+.product_title h3 {
+	color: #FFF;
+	font-family: 'Suisse Intl';
+	font-size: 58px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 25px;
+}
+
+.product_tag li a {
+	color: #FFF; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 10px 12px;
+	border: 1px solid #ddd;
+	display: inline-block;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+.product_tag li a:hover,
+.product_tag li a.active {
+	background: linear-gradient(278deg, #FC00FF 7.51%, #00DBDE 105.77%);
+	border: 1px solid transparent;
+}
+
+.product_tag {
+	display: flex;
+	gap: 14px;
+	margin-bottom: 18px;
+}
+
+.product_save_del_btn ul li a {
+	padding: 12px 17px;
+	color: #28B8E3; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal; 
+	border: 1px solid #28B8E3;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.product_save_del_btn ul {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+	margin-top: 41px;
+}
+
+.inst_btn {
+	color: #E614FC !important;
+	border: 1px solid #E614FC !important;
+}
+
+.ask_pro_btn {
+	color: #FFF !important;
+	border: 1px solid #FFF !important;
+}
+
+.product_solt {
+	background: #FFF;
+	border-radius: 10px;
+	padding: 15px 23px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.product_solt img {
+	width: 29px;
+}
+
+.product_solt p {
+	color: #000;
+	font-family: 'Inter', sans-serif; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.product_solt p span {
+	color: #E614FC;
+}
+
+.product_save_del_btn > p {
+	color: #FFF;
+	text-align: center; 
+	font-family: 'Inter', sans-serif; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 18px 0 29px;
+}
+
+.grab_btn {
+	color: #000;
+	text-align: center; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	background: linear-gradient(139deg, #F00 -53.01%, #FFC700 93.57%);
+	padding: 12px 22px;
+	border-radius: 10px;
+}
+
+.deal_price select {
+	padding: 12px;
+	color: #FFF; 
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	background: transparent;
+	border: 1px solid #ddd; 
+	border-radius: 10px;
+}
+
+.deal_price {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 22px 0 40px 0;
+	height: 44px;
+	border-top: 1px solid #353535;
+	padding: 60px 0 59px 0;
+	border-bottom: 1px solid #353535;
+}
+
+.how_to_active a{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	transition: 0.3s; 
+}
+
+.how_to_active a:hover{
+	opacity: 0.83;
+}
+
+.how_to_active img{
+	width: 30px;
+}
+
+.how_to_active p {
+	color: #FFF; 
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+
 
 
    /*********************************/
