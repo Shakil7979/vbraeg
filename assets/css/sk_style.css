@@ -1,10 +1,140 @@
-
-
-
-
-
-
-
+.ptb140{
+    padding: 140px 0;
+}
+.p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn_c {
+	background: linear-gradient(278deg, #FC00FF 7.51%, #00DBDE 105.77%);
+	border-radius: 10px;
+	transition: 0.3s;
+	display: flex;
+    padding: 14px 16px;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	color: #FFF;
+	text-align: center;
+	font-family: Open Sans;
+    display: inline-block;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.btn_c:hover{
+    background: linear-gradient(278deg, #00DBDE 7.51%, #FC00FF 105.77%);
+    color: white;
+}
+.page_heading_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.page_heading_item h3 {
+	color: #FFF;
+	font-family: 'Suisse Intl';
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: flex;
+	flex: 0 0 auto;
+}
+.page_heading_item span{
+    width: 100%;
+    display: inline-block;
+    background: linear-gradient(273deg, #15181D 12.58%, #FC00FF 30.24%, #00DBDE 76.99%, #15181D 91.1%);
+    height: 2px;
+}
+.search_headers input {
+	margin: 0 auto;
+	color: #B2B8C2;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 16px 28px;
+	background: #1E2127;
+	border: none;
+	border-radius: 15px;
+    width: 100%;
+}
+.search_headers button {
+	background: transparent;
+	border: none;
+	position: absolute;
+	top: 50%;
+	right: 16px;
+	transform: translateY(-50%);
+}
+.search_headers {
+	position: relative;
+	text-align: center;
+}
+.search_headers button img {
+	width: 22px;
+}
+.help_heading_search_box {
+	max-width: 528px;
+	width: 100%;
+}
+.help_items {
+	padding: 38px 40px;
+	background-color: #1E2127;
+	border-radius: 18px;
+	display: flex;
+    cursor: pointer;
+    transition: 0.5s;
+	align-items: center;
+}
+.help_item_logo {
+	width: 75px;
+	height: 75px;
+	background: linear-gradient(278deg, #FC00FF 7.51%, #00DBDE 105.77%);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+    margin-right: 20px;
+	align-items: center;
+}
+.help_items:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.help_items:hover .help_item_logo{
+    background: linear-gradient(278deg, #00DBDE 7.51%, #FC00FF 105.77%);
+}
+.help_item_info h4,.help_item_info p{
+    color: #FFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.help_item_info h4{
+    margin-bottom: 5px;
+    font-size: 26px;
+}
+.help_item_info p{
+    font-size: 20px;
+}
+.need_help_heading .page_heading_item{
+	margin-bottom: 22px;
+}
+.need_help_heading{
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+.need_help_heading p{
+    margin-bottom: 35px;
+}
+.need_help_heading p a{}
 
 
 
