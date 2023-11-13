@@ -1222,6 +1222,11 @@ html{
 	border: 1px solid #FC00FF;
 }
 
+.footer_last_logo img {
+	width: 231px;
+	margin-top: 41px;
+}
+
 
    /*********************************/
   /*********** BLOG BANNER CSS**********/
