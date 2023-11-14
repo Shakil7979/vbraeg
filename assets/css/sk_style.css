@@ -31,6 +31,25 @@
     background: linear-gradient(278deg, #00DBDE 7.51%, #FC00FF 105.77%);
     color: white;
 }
+.btn_c_2{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    line-height: normal;
+    padding: 12px 18px;
+    display: flex;
+    flex: 0 0 auto;
+    transition: 0.5s;
+    display: inline-block;
+}
+.btn_c_2:hover{
+    background: linear-gradient(278deg, #00DBDE 7.51%, #FC00FF 105.77%);
+    color: white;
+}
 .page_heading_item{
     display: flex;
     justify-content: space-between;
@@ -109,7 +128,7 @@
     max-width: 45px;
 }
 .help_items:hover{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 .help_items:hover .help_item_logo{
     background: linear-gradient(278deg, #00DBDE 7.51%, #FC00FF 105.77%);
@@ -138,9 +157,51 @@
 .need_help_heading p{
     margin-bottom: 35px;
 }
-
-
-
+ .help_topic_tab_cont_itm .page_heading_item{
+    display: inherit;
+ }
+.help_topic_tab_cont_itm hr{
+    color: white;
+}
+.help_topic_tab_cont_itm .page_heading_item {
+	margin-bottom: 40px;
+}
+.help_topic_tab_area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.help_topic_tab_btn{
+    flex-basis:30%;
+}
+.help_topic_tab_body{
+    flex-basis:67%;
+}
+.help_topic_tab_cont_itm .page_heading_item h3 {
+	margin-bottom: 22px;
+}
+.help_topic_tab_cont_itm .page_heading_item a{
+    margin-top: 35px;
+}
+.help_topic_tab_btn ul li{
+    padding: 28px 40px;
+    margin-bottom: 21px;
+    cursor: pointer;
+    display: block;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.help_topic_tab_btn ul li:hover{
+    background-color: #1E2127;
+    color: white;
+}
+.help_topic_tab_btn ul li.active{
+    background-color: #1E2127;
+}
+.help_topic_tab_cont_itm .page_heading_item:last-child{
+	margin-bottom: 0px;
+}
 
 /* 
 
