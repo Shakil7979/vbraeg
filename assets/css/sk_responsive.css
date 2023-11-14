@@ -43,6 +43,67 @@
     .search_headers button img {
         width: 15px;
     }
+    .help_topic_tab_btn ul li {
+        padding: 16px 16px;
+        margin-bottom: 10px;
+    }
+    .support_item {
+        margin-bottom:12px;
+        padding:14px;
+    }
+    .support_item input::placeholder, .support_item input, .support_item textarea, .support_item textarea::placeholder {
+        font-size: 16px;
+    }
+    .support_item label {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .support_item textarea {
+        height:auto;
+    }
+    .support_item_file span {
+        font-size: 15px;
+        padding: 23px 10px;
+    }
+    .google_support_recaptcha .btn_c {
+        padding: 10px 16px;
+    }
+    .common_title_section h3 {
+        font-size: 25px;
+    }
+    .common_title_section p {
+        font-size: 15px;
+        margin-bottom: 25px;
+        line-height: 22px;
+    }
+    .common_title_section ul li {
+        font-size: 15px;
+        margin-bottom:10px;
+    }
+    .common_title_section ul li img {
+        width: 20px;
+        margin-right: 11px;
+    }
+    .common_title_section {
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }.common_title_section_border_less{
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+    }
+    .common_title_section h3 span {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .common_title_section h4 {
+        font-size: 18px;
+    }
+    .btn_c_2 {
+        font-size: 16px;
+        padding: 8px 18px;
+    }
 }
 @media all and (max-width:1200px){
     
@@ -52,6 +113,26 @@
         margin-top: 80px;
         margin-bottom:0px;
     }
+    .ptb140 {
+        padding: 70px 0;
+    }
+    .help_topic_tab_btn {
+        flex-basis: 42%;
+    }
+    .help_topic_tab_body {
+        flex-basis: 54%;
+    }
+    .support_item {
+        flex-basis: 100%;
+    }
+    .contact_support_left, .contact_support_right {
+        width: 49%;
+    }
+    .google_support_recaptcha .btn_c {
+        margin-left: 0;
+        margin-top: 14px;
+    }
+    
 }
 @media all and (max-width:767px){
     .page_heading_item {
@@ -75,4 +156,45 @@
     .btn_c {
         padding: 8px 16px;
     }
+    .help_topic_tab_btn {
+        flex-basis: 100%;
+    }
+    .help_topic_tab_body {
+        flex-basis: 100%;
+        margin-top: 34px;
+    }
+    .btn_c_2 {
+        font-size: 15px;
+        padding: 8px 16px;
+    }
+    .help_topic_tab_btn ul li {
+        padding: 12px 16px;
+    }
+    .help_topic_tab_cont_itm .page_heading_item h3 {
+        margin-bottom: 14px;
+        font-size: 18px;
+    }
+    .contact_support_area {
+        flex-wrap: wrap;
+    }
+    .contact_support_left, .contact_support_right {
+        flex-basis:100%;
+    }
+    .google_support_recaptcha {
+        display: inherit;
+    }
+    .destop_view_file{
+        display: none;
+    }
+    .mobile_view_file{
+        display: block;
+    }
+    .common_title_section h3 {
+        font-size: 18px;
+        margin-bottom: 11px;
+    }
+    .common_title_section h4 {
+        font-size: 17px;
+    }
+    
 }
