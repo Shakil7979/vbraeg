@@ -81,7 +81,7 @@
         margin-bottom:10px;
     }
     .common_title_section ul li img {
-        width: 20px;
+        width: 26px;
         margin-right: 11px;
     }
     .common_title_section {
@@ -103,6 +103,88 @@
     .btn_c_2 {
         font-size: 16px;
         padding: 8px 18px;
+    }
+    .refund_policy_body .common_title_section ul li {
+        margin-bottom:10px;
+    }
+    .c_patner_url p {
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .sell_common_heading_area h1 {
+        font-size:25px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .sell_common_heading_area p {
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+    .market_p_item_logo {
+        width:70px;
+        height:70px;
+    }
+    .market_p_item_logo img{
+        width: 35px;
+    }
+    .market_p_cont h4 {
+        font-size: 22px;
+        margin-top: 15px;
+        margin-bottom: 12px;
+    }
+    .market_policy_item {
+        padding: 20px;
+        border-radius: 8px;
+    }
+    .market_p_cont p {
+        font-size: 16px;
+    }
+    .sell_pl_item {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+    .selling_product_logo_aera {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .sell_instraction_item .market_p_item_logo {
+        width: 70px;
+        height: 70px;
+    }
+    .comeing_cal_item h2 {
+        font-size: 28px;
+    }
+    .comeing_cal_item p {
+        font-size: 17px;
+    }
+    .market_p_cont h1 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .sell_instraction_area .container_after {
+        padding: 30px 10px;
+    }
+    .affiliate_question h1 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .affiliate_question .accordion {
+        font-size: 18px;
+        padding: 8px 18px;
+    }
+    .affiliate_question .accordion::after {
+        height: 28px;
+        width: 28px;
+        line-height: 25px;
+    }
+    .affiliate_faq_item {
+        margin-bottom: 10px;
+    }
+    .affiliate_faq_item .panel p {
+        font-size: 15px;
+        padding: 8px 0;
     }
 }
 @media all and (max-width:1200px){
@@ -131,6 +213,25 @@
     .google_support_recaptcha .btn_c {
         margin-left: 0;
         margin-top: 14px;
+    }
+    .sell_pl_item {
+        width: 65px;
+        height: 65px;
+        padding: 17px;
+        margin-bottom: 10px;
+        margin: 10px;
+    }
+    .sell_instraction_item {
+        margin-bottom: 35px;
+    }
+    .sell_instraction_area .container {
+        padding: 35px 10px;
+    }
+    .sell_instion_btn {
+        margin-top: 20px;
+    }
+    .sell_instion_btn .btn_c {
+        padding: 8px 27px;
     }
     
 }
@@ -195,6 +296,131 @@
     }
     .common_title_section h4 {
         font-size: 17px;
+    }
+    .common_title_section ul {
+        margin-top: 28px;
+    }
+    .c_patner_logo {
+        height: 150px;
+    }
+    .sell_common_heading_area img {
+        width: 50px;
+    }
+    .market_p_item_logo img{
+        width: 20px;
+    }
+    .market_p_item_logo {
+        width: 50px;
+        height: 50px;
+    }
+    .market_policy_item {
+        padding: 10px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .market_p_cont h4 {
+        font-size: 15px;
+        margin-top:0px;
+        margin-bottom: 4px;
+    }
+    .market_p_cont p {
+        font-size: 13px;
+        color: gray;
+    }
+    .market_p_cont {
+        text-align: left;
+        width: 81%;
+    }
+    .market_p_item_logo {
+        margin: 0;
+        margin-right: 10px;
+    }
+    .sell_common_heading_area h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .sell_common_heading_area p {
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+    .sell_instraction_item .market_p_item_logo {
+        width: 50px;
+        height: 50px;
+    }
+    .sell_instraction_item {
+        margin-bottom: 35px;
+        display: flex;
+        align-items: center;
+    }
+    .commingsoon_item_left{
+        width: 48%;
+    }
+    .commingsoon_item .market_p_item_logo {
+        border-radius: 35px;
+        margin: 0 auto;
+    }
+    .commingsoon_item .market_p_cont{
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .affiliate_question .accordion{
+        position: relative;
+    }
+    .affiliate_question .accordion::after {
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .affiliate_faq_item .accordion span{
+        display: inline-block;
+        width: 90%;
+    }
+}
+@media all and (max-width: 576px) {
+    .commingsoon_item {
+        display: flex;
+        align-items: center;
+    }
+    .commingsoon_item .market_p_cont {
+        text-align: left;
+        margin-left: 10px;
+        width: 79%;
+    }
+    .commingsoon_item_left {
+        width: 100%;
+    }
+    .commingsoon_item_area {
+        flex-wrap: wrap;
+        
+    }
+    .commingsoon_item {
+        max-width:100%;
+    }
+    .comeing_cal_item {
+        text-align: left;
+        max-width: 100%;
+        margin-top:22px;
+    }
+    .comeing_cal_item h2 {
+        text-align: left;
+        font-size: 16px;
+    }
+    .comeing_cal_item p {
+        font-size: 13px;
+        text-align: left;
+        color: gray;
+    }
+    .comeming_calculation {
+        margin-left: 70px;
+    }
+    .commingsoon_item_left:last-child{
+        margin-top: 50px;
+    }
+    .sell_instraction_area .container_after {
+        padding: 35px 10px;
     }
     
 }

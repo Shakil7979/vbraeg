@@ -301,7 +301,7 @@ input[type=number] {
 .common_title_section {
 	margin-bottom: 70px;
 	padding-bottom: 70px;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid rgba(255, 255, 255,0.2);
 }
 .common_title_section h3{
     color: #FFF;
@@ -348,7 +348,6 @@ input[type=number] {
     margin-bottom:35px;
     line-height: normal;
 }
-.common_title_section ul{}
 .common_title_section ul li{
     color: #FFF;
     font-family: Inter;
@@ -360,19 +359,336 @@ input[type=number] {
     display: flex;
     align-items: flex-start;
 }
+.refund_policy_body .common_title_section ul li{
+    align-items: center;
+    margin-bottom: 38px;
+}
 .common_title_section ul li:last-child{
     margin-bottom: 0;
 }
 .common_title_section ul li img{
     width: 38px;
     margin-right: 11px;
-    margin-top: 2px;
 }
 .common_title_section_border_less{
     border: none;
     margin-bottom: 0;
     padding-bottom: 0;
 }
+ .coupon_patner_item{
+    padding: 14px;
+    border-radius: 15px;
+    background-color: #1E2127;
+    overflow: hidden;
+ }
+ .c_patner_logo{
+    height: 220px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .c_patner_logo img{
+    transition: 0.5s;
+ }
+ .c_patner_url p{
+    color: #FFF;
+    font-family: Suisse Intl;
+    font-size: 22px;
+    font-style: normal;
+    margin-top: 28px;
+    margin-bottom: 14px;
+    font-weight: 400;
+    line-height: normal;
+ }
+.coupon_patner_item:hover .c_patner_logo img{
+    transform: scale(1.1);
+}
+.sell_common_heading_area{
+    text-align: center;
+}
+.sell_common_heading_area img{}
+.sell_common_heading_area h1{
+    color: #FFF;
+    font-family: Suisse Intl;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-bottom: 36px;
+    line-height: normal;
+}
+.sell_common_heading_area p{
+    color: #FFF;
+    font-family: Suisse Intl;
+    margin-bottom: 66px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sell_thum {
+	max-width: 1225px;
+	width: 100%;
+	margin: 0 auto;
+}
+.sell_thum img{
+    width: 100%;
+}
+.market_p_item_logo {
+	width: 141px;
+	height: 141px;
+	border-radius: 10px;
+    transition: 0.5s;
+	margin: 0 auto;
+	background: linear-gradient(232deg, #FC00FF -2.29%, #00DBDE 104.47%);
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.market_policy_item:hover .market_p_item_logo{
+    background: linear-gradient(232deg, #00DBDE -2.29%, #FC00FF 104.47%);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+}
+.market_p_cont h1{
+    color: #FFF;
+    font-family: Suisse Intl;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+.market_p_cont {
+	text-align: center;
+}
+.market_policy_item {
+    cursor: pointer;
+	padding: 48px 38px;
+	border-radius: 30px;
+	background-color: #1E2127;
+	height: 100%;
+}
+.market_p_cont h4{
+    color: #FFF;
+    font-family: Suisse Intl;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 38px;
+    margin-bottom: 22px;
+    line-height: normal;
+}
+.market_p_cont p{
+    color: #bfbfbf;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.selling_product_logo_aera {
+	margin-top: 67px;
+	margin-bottom: 170px;
+}
+.sell_product_logo_items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.sell_pl_item {
+	width: 120px;
+	height: 120px;
+    cursor: pointer;
+	border-radius: 15px;
+	border: 1px solid #353535;
+	display: flex;
+	justify-content: center;
+    transition: 0.5s;
+	align-items: center;
+	padding: 35px;
+}
+.sell_pl_item:hover{
+    background-color: #676c74;
+}
+.sell_pl_item img{
+    width: 100%;
+}
+.sell_instraction_item .market_p_item_logo{
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+}
+.sell_instraction_area .container_after{
+    border-radius: 30px;
+    padding: 90px 10px;
+    position: relative;
+    background: #1E2127;
+}
+.sell_instraction_area .container_after::after {
+	position: absolute;
+	top: -2px;
+	bottom: -2px;
+	left: -2px;
+	right: -2px;
+	background: linear-gradient(rgba(24, 197, 225, 1), rgba(134, 102, 239, 1), rgba(251, 1, 255, 1));
+	content: '';
+	z-index: -1;
+	border-radius: 30px;
+}
+.sell_instraction_items{
+    max-width: 1250px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-around;
+}
+.sell_instraction_item {
+	max-width: 301px;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+.sell_instion_btn{
+    text-align: center;
+    margin-top: 57px;
+}
+.sell_instion_btn .btn_c{
+    padding: 12px 27px;
+    text-align: center;
+}
+.commingsoon_item_area {
+	max-width: 750px;
+	margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+	
+}
+.comeing_item{
+    display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.commingsoon_item {
+	max-width: 301px;
+}
+.commingsoon_item .market_p_item_logo{
+    border-radius: 35px;
+}
+ 
+.comeing_cal_item {
+	text-align: center;
+	flex-basis: 50%;
+	max-width: 323px;
+	margin-top: 45px;
+}
+.comeing_cal_item h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Suisse Intl;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.comeing_cal_item p{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.offer_item_affiliate .sell_instraction_item .market_p_item_logo{
+    border-radius: 30px;
+}
+/* accordian */
+.accordion {
+     
+    transition: 0.4s;
+  }
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  .affiliate_question .accordion::after {
+	content: '\002B';
+	color: #777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+	height: 38px;
+	width: 38px;
+	display: inline-block;
+	background: transparent;
+	border-radius: 50%;
+	color: white;
+	border: 1px solid white;
+	line-height: 35px;
+	text-align: center;
+}
+.affiliate_question {
+	max-width: 1017px;
+	width: 100%;
+	margin: 0 auto;
+}
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+.affiliate_question .accordion{
+    background-color: #1E2127;
+    border: none;
+    border-radius: 10px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 18px 36px;
+    text-align: left;
+    width: 100%;
+    line-height: normal;
+}
+.affiliate_faq_item{
+    margin-bottom: 30px;
+}
+.affiliate_faq_item .panel {
+	overflow: auto;
+}
+.affiliate_faq_item .panel p {
+	font-size: 20px;
+    padding: 8px 0;
+}
+.affiliate_question h1{
+    text-align: center;
+    color: #FFF;
+    font-family: Suisse Intl;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: normal;
+}
+.accordian_btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
 
 
 /* 
