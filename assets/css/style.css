@@ -1237,7 +1237,7 @@ html{
 .footer_area {
 	background: #1E2127;
 	padding-top: 148px;
-	margin: 30px;
+	margin: 0 30px 30px 30px;
 	border-radius: 30px; 
 }
 
@@ -1950,15 +1950,18 @@ html{
 	flex: 0 0 calc(50% - 15px);
 }
 
-.product_img img {
+.product_img > img {
 	width: 100%;
+	/* height: 1017px;
+	object-fit: contain; */
 }
 
-.product_detials_info{ 
-	flex: 0 0 calc(50% - 15px);
-	border: 1px solid #FC00FF;
+.product_detials_info {
+	flex: 0 0 calc(50% - 15px); 
 	padding: 23px 58px;
 	border-radius: 30px;
+	background: #1E2127;
+	box-sizing: border-box;
 }
 
 .product_alert p {
@@ -2371,8 +2374,92 @@ html{
 	height: 100%;
 }
 
+.product_share_star > a {
+	width: 54px;
+	height: 54px;
+	border-radius: 100%;
+	background: #000;
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product_share_star > a i {
+	color: #fff;
+	font-size: 30px;
+}
+
    /*********************************/
-  /*********** HEADER CSS**********/
+  /*********** CART CSS**********/
+ /********************************/
+
+ .cart_title{
+	margin-top: 50px;
+ }
+
+ .cart_count{
+	background: linear-gradient(279deg, #FC00FF -2.62%, #00DBDE 82.81%);
+	width: 28px; 
+	height: 28px;
+	color: #FFF;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+ }
+
+.cart_hader_title h3{
+	display: flex;
+	align-items: center;
+	gap: 13px;
+}
+
+.cart_flex{
+	display: flex;
+	gap: 44px;
+}
+
+.cart_left{
+	flex: 0 0 calc(70% - 22px);
+	background: linear-gradient(90deg, #333 17.78%, #16191D 98.31%);
+}
+
+.cart_right{
+	flex: 0 0 calc(30% - 22px);
+}
+
+.cart_left_item > img {
+	width: 257px;
+	height: 290px;
+}
+
+.cart_left_item {
+	display: flex;
+	gap: 45px;
+}
+
+.cart_title_box h3 {
+	color: #FFF;
+	font-family: 'Suisse Intl';
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.cart_title_box{
+	display: flex;
+	gap: 21px;
+}
+
+
+   /*********************************/
+  /*********** Card CSS **********/
  /********************************/
  
 
