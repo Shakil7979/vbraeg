@@ -27,8 +27,8 @@ $(document).ready(function(){
         loop:true, 
         nav:true,
         dots:false,
-        items:2,
-        margin: 30,
+        items:3,
+        margin: 45,
         autoplay:true,
         navText: ["<img src='assets/images/home/blog/prev.png'>","<img src='assets/images/home/blog/next.png'>"],
         responsive : { 
@@ -45,7 +45,7 @@ $(document).ready(function(){
               nav:false, 
           }, 
           768 : {
-              items:2,  
+              items:3,
               dots:false,
               nav:true,
           }, 
@@ -133,7 +133,7 @@ $(document).ready(function(){
       navText: ["<img src='assets/images/home/blog/prev.png'>","<img src='assets/images/home/blog/next.png'>"],
       responsive : {  
         1200 : { 
-          margin: 20,
+          margin: 30,
         }, 
     }
   });
