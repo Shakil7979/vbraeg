@@ -469,10 +469,13 @@ html{
 	line-height: normal;
 }
 
+.review_carousel {
+	padding: 15px 0;
+}
+
 .review_single {
-	padding: 43px 40px;
-	border: 2px solid #FC00FF;  
-	border-radius: 20px;
+	padding: 43px 40px; 
+	border-radius: 30px;
 }
 
 .review_single p {
@@ -514,15 +517,31 @@ html{
 	margin-bottom: 110px;
 }
 
-.deal {
-	border: 1px solid #FC00FF;
-	border-radius: 20px;
+.deal { 
+	border-radius: 30px;
 	padding: 50px 50px 37px 50px;
 }
 
+.border_line{
+	position: relative;
+	background: #15181D;
+} 
+
+.border_line:after{
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: linear-gradient(rgba(24, 197, 225, 1), rgba(134, 102, 239, 1), rgba(251, 1, 255, 1));
+    content: '';
+    z-index: -1;
+    border-radius:30px;
+} 
+
 .deal_header_title h3 {
 	color: #FFF;
-  font-family: 'Suisse Intl';
+  	font-family: 'Suisse Intl';
 	font-size: 36px;
 	font-style: normal;
 	font-weight: 400;

@@ -5,7 +5,7 @@ $(document).ready(function(){
         dots:false,
         items:2.4,
         margin: 50,
-        autoplay:true,
+        // autoplay:true,
         responsive : { 
           0 : {
               items:1.2, 
