@@ -186,6 +186,74 @@
         font-size: 15px;
         padding: 8px 0;
     }
+    .love_us_list {
+        margin-bottom:60px;
+    }
+    .love_us_list h3 {
+        font-size: 25px;
+    }
+    .love_us_list ul li {
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+    .love_us_list ul li img {
+        width: 25px;
+        height: 25px;
+    }
+    .love_us_list ul {
+        margin-top: 30px;
+    }
+    .love_us_list p {
+        font-size: 15px;
+    }
+    .review_ad_name h6 {
+        font-size: 18px;
+    }
+    .review_ad_name ul li img {
+        width: 18px;
+    }
+    .customer_review_item p {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .truspoint_item {
+        padding: 22px 10px;
+    }
+    .customer_review_item {
+        padding: 22px;
+        margin-top:22px;
+    }
+    .pb140 {
+        padding-bottom: 90px;
+    }
+    .review_calculation_item h5 {
+        font-size: 24px;
+    }.review_calculation_item ul li {
+        margin-top: 20px;
+        font-size: 16px;
+        display: flex;
+    }
+    .review_calculation_item ul li img {
+        width: 20px;
+        margin-right: 8px;
+        height: 20px;
+    }
+    .about_client_info_details h4 {
+        font-size: 18px;
+    }
+    .truspoint_item p {
+        font-size: 15px;
+    }
+    .about_list_desktop h4 {
+        font-size: 25px;
+    }
+    .about_list_desktop p {
+        font-size: 15px;
+    }
+    .love_us_list_desktop span {
+        margin-top: 38px;
+        margin-bottom: 38px;
+    }
 }
 @media all and (max-width:1200px){
     
@@ -197,6 +265,9 @@
     }
     .ptb140 {
         padding: 70px 0;
+    }
+    .pb140 {
+        padding-bottom: 70px;
     }
     .help_topic_tab_btn {
         flex-basis: 42%;
@@ -232,6 +303,12 @@
     }
     .sell_instion_btn .btn_c {
         padding: 8px 27px;
+    }
+    .customer_love_thum_left img {
+        height: auto;
+    }
+    .customer_love_thum_right img {
+        height: 146px;
     }
     
 }
@@ -378,6 +455,51 @@
         display: inline-block;
         width: 90%;
     }
+    .customer_love_thum_right img {
+        height: 104px;
+    }
+    .customer_love_thum_left {
+        margin-bottom: 25px;
+    }
+    .customer_review_item {
+        padding: 15px;
+    }
+    .review_calculation_item {
+        padding: 24px;
+    }
+    .review_calculation_item h5 {
+        font-size: 18px;
+    }
+    .customer_love_area {
+        padding-bottom: 0;
+    }
+    .review_calculation_aera{
+        padding: 70px 0;
+    }
+    .about_list_desktop h4 {
+        font-size: 16px;
+    }
+    .about_client_info_details img {
+        height: 62px;
+        width: 62px;
+    }
+    .truspoint_item p {
+        font-size: 15px;
+        display: inline-block;
+    }
+    .truspoint_item img {
+        max-width: 101px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        border-right: 2px solid #66676b;
+        padding-right: 9px;
+    }
+    .about_client_info_details > p:last-child {
+        padding-bottom: 30px;
+    }
+    .about_page ul li {
+        align-items: flex-start;
+    }
 }
 @media all and (max-width: 576px) {
     .commingsoon_item {
@@ -421,6 +543,28 @@
     }
     .sell_instraction_area .container_after {
         padding: 35px 10px;
+    }
+    .love_us_list_mobile{
+        display: block;
+    }
+    .customer_love_thum_right img:last-child {
+        margin-top: 10px;
+    }
+    .customer_love_thum_right img {
+        height: 73px;
+    }
+    .love_us_list h3 {
+        font-size: 18px;
+    }
+    .love_us_list ul {
+        margin-top: 23px;
+    }
+    .love_us_list ul li {
+        margin-bottom:25px;
+        font-size: 15px;
+    }
+    .customer_love_thum .col-3{
+        padding-left: 0;
     }
     
 }
