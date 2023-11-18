@@ -476,6 +476,7 @@ html{
 .review_single {
 	padding: 43px 40px; 
 	border-radius: 30px;
+	margin: 2px;
 }
 
 .review_single p {
@@ -527,17 +528,17 @@ html{
 	background: #15181D;
 } 
 
-.border_line:after{
-    position: absolute;
-    top: -2px;
-    bottom: -2px;
-    left: -2px;
-    right: -2px;
-    background: linear-gradient(rgba(24, 197, 225, 1), rgba(134, 102, 239, 1), rgba(251, 1, 255, 1));
-    content: '';
-    z-index: -1;
-    border-radius:30px;
-} 
+.border_line::after {
+	position: absolute;
+	top: -1px;
+	bottom: -1px;
+	left: -1px;
+	right: -1px;
+	background: linear-gradient(rgba(24, 197, 225, 1), rgba(134, 102, 239, 1), rgba(251, 1, 255, 1));
+	content: '';
+	z-index: -1;
+	border-radius: 30px;
+}
 
 .deal_header_title h3 {
 	color: #FFF;
@@ -828,7 +829,6 @@ html{
 }
 
 .arrival_single {
-	border: 1px solid #FC00FF;
   margin-bottom: 48px;
 }
 
@@ -1031,8 +1031,7 @@ html{
 	padding: 57px 50px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-  border: 1px solid #FC00FF;
+	align-items: center; 
 }
 
 .subscribe_text img {
@@ -1227,8 +1226,8 @@ html{
 .footer_copy {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 30px;
-  align-items: center;
+	padding-bottom: 29px;
+  	align-items: center;
 }
 
 .footer_copy img {
@@ -1239,8 +1238,7 @@ html{
 	background: #1E2127;
 	padding-top: 148px;
 	margin: 30px;
-	border-radius: 30px;
-	border: 1px solid #FC00FF;
+	border-radius: 30px; 
 }
 
 .footer_last_logo img {
