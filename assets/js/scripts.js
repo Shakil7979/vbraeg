@@ -138,6 +138,35 @@ $(document).ready(function(){
     }
   });
 
+    $(".game_main").owlCarousel({
+      loop:true, 
+      nav:true,
+      dots:false,
+      items:4,
+      margin: 30,
+      autoplay:true, 
+      navText: ["<img src='assets/images/home/blog/prev.png'>","<img src='assets/images/home/blog/next.png'>"],
+      responsive : {  
+        1200 : { 
+          margin: 30,
+        }, 
+    }
+  });
+    $(".product_revies_row").owlCarousel({
+      loop:true, 
+      nav:true,
+      dots:false,
+      items:3,
+      margin: 30,
+      autoplay:true, 
+      navText: ["<img src='assets/images/home/blog/prev.png'>","<img src='assets/images/home/blog/next.png'>"],
+      responsive : {  
+        1200 : { 
+          margin: 30,
+        }, 
+    }
+  });
+
   
   $(document).on('click','.filter_by',function(){
     $('.shop_list_filter').slideToggle();
