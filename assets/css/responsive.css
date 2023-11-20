@@ -1,6 +1,24 @@
 @media all and (min-width: 1550px ){
     .container{
+        max-width: 1500px;
+    }
+}
+
+@media all and (min-width: 1750px){
+    .container{
         max-width: 1664px;
+    }
+}
+
+@media all and (max-width: 1750px){
+    .product_count_down h3 { 
+        font-size: 20px; 
+    }
+    .product_count_down h3 img {
+        width: 32px;
+    }
+    .product_count_down .deal_count_down p { 
+        font-size: 18px; 
     }
 }
 
