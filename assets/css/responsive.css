@@ -20,11 +20,148 @@
     .product_count_down .deal_count_down p { 
         font-size: 18px; 
     }
+    .product_title h3 { 
+        font-size: 40px; 
+    }
+    .product_star p { 
+        font-size: 18px; 
+    }
+    .product_tag li a { 
+        font-size: 18px; 
+        padding: 8px 10px; 
+    }
+    .deal_count_down ul li span {
+        width: 56.083px;
+        height: 50px; 
+    }
+    .product_save_del_btn ul li a {
+        padding: 10px 16px; 
+        font-size: 20px; 
+    }
+    .product_solt p { 
+        font-size: 20px; 
+    }
+    .product_solt img {
+        width: 22px;
+    }
+    .product_title {
+        margin: 20px 0;
+        padding: 20px 0; 
+    }
+    .product_save_del_btn > p { 
+        font-size: 20px; 
+    }
+    .color_price { 
+        font-size: 20px !important; 
+    }
+    .grab_btn { 
+        font-size: 18px; 
+    }
+    .btn_1 { 
+        height: 48px; 
+        font-size: 18px; 
+    }
+    .btn_1 img {
+        width: 28px;
+    }
+    .deal_price select {
+        padding: 8px 10px; 
+    }
+    .product_img > img { 
+        height: 996px;
+    }
+    .learn_more_text p a, .learn_more_text p { 
+        font-size: 18px; 
+    }
+    .learn_more_text img {
+        width: 26px;
+    }
+    .header_menu ul li a img {
+        width: 30px;
+    }
+    .header_menu ul li:nth-child(4) a img {
+        width: 26px;
+    }
+    .header_menu ul { 
+        gap: 22px;
+    }
+    .search_header button { 
+        right: 40px;
+    }
+    .description_saller_item p { 
+        font-size: 18px; 
+    }
+    .description_saller_item a img, .description_saller_item p img {
+        width: 22px;
+    }
+    .description_date ul li a { 
+        font-size: 20px; 
+    }
+    .description_date ul li p { 
+        font-size: 20px; 
+    }
+    .description_left > p { 
+        font-size: 20px; 
+    }
+    .single_game_detail iframe { 
+        height: 257px;
+    }
 }
 
 @media all and (max-width: 1550px){
     .shop_list_filter { 
         width: 324px;
+    }
+    .product_solt p {
+        font-size: 16px;
+    }
+    .product_save_del_btn > p {
+        font-size: 16px;
+    }
+    .deal_count_down ul li span { 
+        font-size: 18px; 
+    }
+    .product_alert i {
+        font-size: 21px; 
+    }
+    .deal_count_down ul li span {
+        width: 40.083px;
+        height: 40px;
+    }
+    .product_alert p { 
+        font-size: 18px; 
+    }
+    .product_share_star > a {
+        width: 40px;
+        height: 40px; 
+    }
+    .product_share_star > a i { 
+        font-size: 20px;
+    }
+    .product_star img {
+        width: 142px;
+    }
+    .single_game_detail iframe {
+        height: 225px;
+    }
+    .description_saller_item h3 {
+        width: 156.943px; 
+    }
+    .description_date ul li a {
+        font-size: 16px;
+    }
+    .description_left > p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .description_date ul li p {
+        font-size: 16px;
+    }
+    .description_saller_item p {
+        font-size: 16px;
+    }
+    .description_saller_item h3 { 
+        font-size: 16px; 
     }
     .from_price input {
         width: 77.5px;
@@ -80,14 +217,17 @@
     .logo a img {
         width: 188px;
     }
+    .color_price {
+        font-size: 16px !important;
+    }
     .deal_single h3 { 
         font-size: 24px; 
     }
-    .deal_price img {
+    .deal_price > img {
         width: 111px;
     }
     .deal_icon {
-        gap: 10px;
+        gap: 20px;
     }
     .deal_icon li img {
         width: 24px;
@@ -95,16 +235,31 @@
     .deal_icon_width, .deal_icon li:nth-child(3) img, .deal_icon li:nth-child(4) img {
         width: 23px !important;
     }
+    .grab_btn {
+        font-size: 16px;
+    }
+    .how_to_active img {
+        width: 24px;
+    }
+    .product_img > img {
+        height: 943px;
+    }
+    .learn_more_text p a, .learn_more_text p {
+        font-size: 16px;
+    }
+    .btn_1 {
+        font-size: 18px;
+    }
+    .how_to_active p { 
+        font-size: 18px; 
+    }
     .deal_icon li:nth-child(2) img {
         width: 24px;
     }
     .deal_icon li span { 
         height: 23px; 
         margin-top: 7px;
-    }
-    .color_price { 
-        font-size: 20px !important; 
-    }
+    }  
     .part_right h3 { 
         font-size: 40px; 
     }
@@ -281,11 +436,121 @@
     .not_p { 
         gap: 4px;
     }
+    .deal_icon li img {
+        width: 24px !important;
+    }
+    .deal_icon li:nth-child(2) img {
+        width: 24px !important;
+    }
 }
 
+@media all and (max-width:1440px){
+    .product_count_down h3 {
+        font-size: 16px;
+    }
+    .product_count_down .deal_count_down p {
+        font-size: 14px;
+    }
+    .product_count_down h3 img {
+        width: 26px;
+    }
+
+    .product_save_del_btn ul li a { 
+        font-size: 16px;
+    } 
+    .product_solt { 
+        padding: 10px 12px; 
+    }
+    .product_solt p {
+        font-size: 14px;
+    }
+    .product_solt img {
+        width: 18px;
+    }
+    .grab_btn { 
+        padding: 12px 5px; 
+    }
+    .btn_1 {
+        font-size: 16px;
+    }
+    .btn_1 img {
+        width: 22px;
+    }
+    .buy_now_details .btn_1 { 
+        width: 115.5px; 
+    }
+    .product_count_down { 
+        padding: 15px 26px; 
+    }
+    .product_img > img {
+        height: 880px;
+    }
+    .description_date ul li p { 
+        flex: 0 0 102px;
+    }
+    .description_right > h3 { 
+        font-size: 24px; 
+    }
+    .description_left h3 { 
+        font-size: 24px; 
+    }
+    .description_saller_item p { 
+        font-size: 14px; 
+        padding: 15px 8px; 
+    }
+    .description_saller_item h3 {
+        width: 142.943px;
+    }
+    .description_left > p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .product_description_area {
+        padding: 118px 0 108px 0;
+    }
+    .tab_main_area {
+        margin-bottom: 30px;
+    }
+    .single_game_detail iframe {
+        height: 198px;
+    }
+    .game_media_area {
+        margin-bottom: 120px;
+    }
+    .product_reviews_area {
+        margin-bottom: 148px;
+    }
+    .you_may_also_area {
+        margin-bottom: 50px;
+    }
+    .search_header input { 
+        font-size: 16px; 
+    }
+    .header_menu ul li a img {
+        width: 25px;
+    }
+    .header_menu ul li:nth-child(4) a img {
+        width: 23px;
+    }
+    .header_menu ul li a span { 
+        width: 22px; 
+        height: 22px; 
+        font-size: 14px; 
+    }
+
+}
 @media all and (max-width:1200px){
     .search_header input {
         max-width: 100%;
+    }
+    .product_detials_info {
+        padding: 23px 20px; 
+    }
+    .product_count_down {
+        padding: 15px 20px;
+    }
+    .deal_count_down ul { 
+        gap: 5px;
     }
     .search_header {
         flex: 0 0 45%;
@@ -398,6 +663,13 @@
         height: 22px; 
         font-size: 14px; 
     }
+    .product_details { 
+        flex-direction: column;
+        gap: 27px;
+    }
+    .product_img > img {
+        height: auto;
+    }
     
     .deal_price img { 
         display: block;
@@ -482,6 +754,17 @@
     .shop_sub_tab ul li a { 
         font-size: 14px; 
         padding: 4px 6px; 
+    }
+
+    .product_description_area .row {
+        flex-direction: column-reverse;
+    }
+    .description_right { 
+        padding: 22px 14px;
+        border-radius: 20px;
+    }
+    .active_tab{
+        background: linear-gradient(278deg, #FC00FF 7.51%, #00DBDE 105.77%);
     }
     .banner_tab.shop_tab ul li a {
         width: 58px;
@@ -634,6 +917,9 @@
     .mobile_none_deal{
         display: block;
     }
+    .you_may_also_item{
+        display: none;
+    }
     .review_content h3 {
         font-size: 12px;
     }
@@ -708,6 +994,28 @@
     .social_footer_img {
         width: 136px;
     }
+    .description_saller_item h3 {
+        width: 93.943px;
+        padding: 10px 13px;
+    }
+    .description_left {
+        margin-top: 39px;
+    }
+    .product_revies_row .owl-nav img, .game_main .owl-nav img{ 
+        display: none;
+    }
+    .single_game_detail iframe {
+        height: 200px;
+    }
+    .single_game_detail img {
+        height: 200px !important;
+    }
+    .game_media_area {
+        margin-bottom: 87px;
+    }
+    .product_reviews_area {
+        margin-bottom: 87px;
+    }
 }
 
 @media all and (max-width: 576px) {
@@ -715,6 +1023,160 @@
         padding: 0 27px;
         height: 445px;
     } 
+    .single_game_detail iframe {
+        height: 145px;
+    }
+    .single_game_detail img {
+        height: 145px !important;
+    }
+    .description_date ul li { 
+        margin-bottom: 8px; 
+    }
+    .description_date ul li a {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .description_date ul li p {
+        flex: 0 0 75px;
+    }
+    .description_date ul li p {
+        font-size: 11px;
+    }
+    .description_date {
+        padding: 0 0 0 0;
+        border-top: none;
+    }
+    .description_saller_item h3 {
+        font-size: 12px;
+    }
+    .description_left > a { 
+        margin: 7px 0 17px 0;
+    }
+    .description_left > a { 
+        font-size: 15px; 
+        margin: 7px 0 41px 0; 
+    }
+    .description_left h3 {
+        font-size: 16px;
+    }
+    .description_left > p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .description_right > h3 {
+        font-size: 16px;
+    }
+    .product_description_area {
+        padding: 90px 0 80px 0;
+    }
+    .product_alert p {
+        font-size: 14px;
+    } 
+
+    .product_star p {
+        font-size: 13px;
+    }
+    .product_tag li a {
+        font-size: 14px;
+        padding: 4px 5px;  
+        border-radius: 5px;
+    }
+    .product_solt_mobile{
+        display: block;
+    }
+    .product_desktop_p{
+        display: none;
+    }
+    .product_save_del_btn > p {
+        font-size: 12px; 
+        margin: 11px 0 18px;
+    }
+
+    .how_to_active p {
+        font-size: 14px;
+    }
+    .how_to_active img {
+        width: 18px;
+    }
+    .product_title {
+        margin: 18px 0;
+        padding: 18px 0;
+    }
+    .product_save_del_btn ul { 
+        margin-bottom: 11px;
+        margin-top: 11px;
+    }
+    .product_solt_mobile .product_solt {
+        padding: 10px 12px;
+        justify-content: inherit;
+        gap: 9px;
+    }
+    .product_tag { 
+        gap: 7px;
+        margin-bottom: 9px;
+    }
+    .product_save_del_btn ul li a {
+        font-size: 12px;
+    }
+    .product_title h3 {
+        font-size: 24px;
+        margin-top: 5px;
+        margin-bottom: 7px;
+    }
+    .product_star img {
+        width: 97px;
+    }
+    .product_share_star > a {
+        width: 26px;
+        height: 26px;
+    }
+    .product_share_star > a i {
+        font-size: 14px;
+    }
+    .deal_price_btn_desktop{
+        display: none;
+    }
+    .deal_price_mobil{
+        display: block;
+    }
+    .deal_price_color {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 13px;
+    }
+    .deal_flex_mobile a {
+        display: block;
+        margin-bottom: 8px;
+    }
+    .deal_price .btn_1 {
+        height: 44px;
+        display: flex;
+    }
+    .deal_flex_mobile {
+        flex: 0 0 49%;
+    }
+    .deal_flex_mobile a{
+        width: 100% !important;
+    }
+    .deal_price_mobil .deal_price select { 
+        width: 90px;
+    }
+    .deal_price .btn_1 {
+        height: 44px;
+    }
+    .learn_more_text p a, .learn_more_text p {
+        font-size: 12px;
+    }
+    .learn_more_text img {
+        width: 15px;
+    }
+    .learn_more_text { 
+        align-items: flex-start;
+    }
+    .product_count_down { 
+        display: none;
+    }
     .article_tags h3 { 
         font-size: 16px; 
         margin-bottom: 16px;
@@ -969,8 +1431,8 @@
         font-size: 14px;
         border-radius: 5px;
     }
-    .btn_1 img {
-        width: 17px;
+    .btn_1  img {
+        width: 17px !important;
     }
     .banner_content { 
         position: absolute;
@@ -1003,5 +1465,52 @@
     }
     .ban_tab img {
         width: 161px;
+    }
+    .deal_price_mobil .deal_price {
+        height: inherit !important;
+        border-top: 1px solid #353535;
+        padding: 18px 0;
+        border-bottom: 1px solid #353535;
+    }
+    /* .deal_icon li img {
+        width: 29px !important;
+    }
+    .deal_icon_width, .deal_icon li:nth-child(3) img, .deal_icon li:nth-child(4) img {
+        width: 26px !important;
+    }
+
+    .deal_icon li:nth-child(2) img {
+        width: 27px !important;
+    } */
+    .deal_icon {
+        gap: 15px;
+    }
+    .color_price {
+        font-size: 16px !important;
+    }
+}
+
+
+@media all and (max-width: 450px){
+    .product_img > img {
+        height: 327px;
+    }
+    .product_save_del_btn ul li a {
+        padding: 10px 10px; 
+    }
+    .description_saller_item h3 {
+        width: 84px;
+        padding: 8px 6px;
+        font-size: 12px;
+    }
+    .description_saller_item { 
+        gap: 8px;
+        margin-bottom: 7px;
+    }
+    .description_saller_item p {
+        font-size: 11px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
     }
 }

@@ -147,6 +147,15 @@ $(document).ready(function(){
       autoplay:true, 
       navText: ["<img src='assets/images/home/blog/prev.png'>","<img src='assets/images/home/blog/next.png'>"],
       responsive : {  
+        0 : { 
+          items:1,
+        }, 
+        450 : { 
+          items:2,
+        }, 
+        991 : { 
+          items:4,
+        }, 
         1200 : { 
           margin: 30,
         }, 
@@ -161,6 +170,12 @@ $(document).ready(function(){
       autoplay:true, 
       navText: ["<img src='assets/images/home/blog/prev.png'>","<img src='assets/images/home/blog/next.png'>"],
       responsive : {  
+        0 : { 
+          items:1,
+        }, 
+        991 : { 
+          items:3,
+        }, 
         1200 : { 
           margin: 30,
         }, 

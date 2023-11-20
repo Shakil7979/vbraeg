@@ -820,7 +820,7 @@ html{
   /*********** HEADER CSS**********/
  /********************************/
 
- .arrival_header a {
+ .arrival_header > a {
 	width: 234px;
 }
 
@@ -1689,6 +1689,23 @@ html{
 .offer_mobile{
 	display: none;
 }
+
+.deal_price_btn_desktop{
+	display: block;
+}
+.deal_price_mobil{
+	display: none;
+}
+
+.product_solt_mobile{
+	display: none;
+}
+.product_desktop_p{
+	display: block;
+}
+
+
+
    /*********************************/
   /*********** SHOP LIST CSS**********/
  /********************************/
@@ -2200,13 +2217,18 @@ html{
 .deal_price {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	margin: 22px 0 40px 0;
+	justify-content: space-between; 
+}
+
+.deal_price_mobile .deal_price {
+	/* margin: 22px 0 40px 0;
 	height: 44px;
 	border-top: 1px solid #353535;
 	padding: 60px 0 59px 0;
-	border-bottom: 1px solid #353535;
+	border-bottom: 1px solid #353535; */
 }
+
+
 
 .how_to_active a{
 	display: flex;
@@ -2247,6 +2269,12 @@ html{
 	line-height: normal;
 }
 
+.header_menu {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
 .learn_more_text {
 	display: flex;
 	gap: 10px;
@@ -2254,6 +2282,7 @@ html{
 	border: 1px solid #ddd;
 	border-radius: 10px;
 	margin-top: 30px;
+	align-items: center;
 } 
 
 .description_left h3 {
@@ -2385,8 +2414,12 @@ html{
 
 .description_saller_item a {
 	background: linear-gradient(278deg, #FC00FF 7.51%, #00DBDE 105.77%);
-	padding: 15px;
 	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 52px;
+	height: 53px;
 }
 
 
@@ -2431,6 +2464,7 @@ html{
 .single_game_detail iframe {
 	width: 100%;
 	height: 292px;
+	border-radius: 30px;
 }
 
 .product_share_star > a {
