@@ -192,6 +192,10 @@ html{
 	padding: 36px 0 59px 0;
 }
 
+.banner_tab ul li {
+	padding: 0 30px;
+}
+
 .banner_tab ul li a img {
 	width: 56px;
 }
@@ -238,6 +242,7 @@ html{
   background: rgba(0,0,0,0.2);
   left: 0;
   top: 0;
+  border-radius: 30px;
 }
 
 .ban_tab img {
@@ -474,17 +479,21 @@ html{
 }
 
 .review_single {
-	padding: 43px 40px; 
-	border-radius: 30px;
+	padding: 43px 40px;
+	border-radius: 20px;
 	margin: 2px;
 }
 
 .review_single p {
-	color: #FFF; 
+	color: #828282; 
 	font-size: 22px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+}
+
+.review_carousel .border_line:after{
+	border-radius: 20px;
 }
 
 .review_clint_info img{
@@ -530,14 +539,49 @@ html{
 
 .border_line::after {
 	position: absolute;
-	top: -1px;
+	top: -2px;
 	bottom: -1px;
-	left: -1px;
-	right: -1px;
+	left: -2px;
+	right: -2px;
 	background: linear-gradient(rgba(24, 197, 225, 1), rgba(134, 102, 239, 1), rgba(251, 1, 255, 1));
 	content: '';
 	z-index: -1;
 	border-radius: 30px;
+}
+
+.mobile_none_deal .deal_price span ,
+.comming_soonsss .deal_price span {
+	color: #78797D;
+	font-family: Open Sans;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.comming_soonsss .arrival_single {
+	margin-bottom: 0;
+}
+
+.mobile_none_deal .deal_price , 
+.comming_soonsss .deal_price { 
+	justify-content: start;
+	gap: 10px;
+}
+
+.desktop_deal_main.desktop_best_main {
+	padding: 48px 49px 50px 49px;
+	border-radius: 30px;
+}
+
+.comming_area .deal_header { 
+	margin-bottom: 0;
+}
+
+.comming_soonsss {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .deal_header_title h3 {
@@ -629,7 +673,7 @@ html{
  }
 
 .deal_single {
-	flex: 0 0 calc(100% / 4 - 30px);
+	flex: 0 0 calc(100% / 4 - 25px);
 	padding: 15px 13px 32px 13px;
 	background: #1E2127;
 	border-radius: 30px;
@@ -766,9 +810,9 @@ html{
 .part_right {
 	padding: 75px 63px 67px 63px;
 	background: #1E2127;
-	border-radius: 25px;
-  box-sizing: border-box;
-  position: relative;
+	border-radius: 30px;
+	box-sizing: border-box;
+	position: relative;
 }
 
 .part_right h3 {
@@ -880,7 +924,8 @@ html{
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-  transition: 0.3s;
+  	transition: 0.3s;
+	border-radius: 10px;
 }
 
 .offer_text a:hover{
@@ -942,7 +987,7 @@ html{
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-	margin-bottom: 35px;
+	margin-bottom: 17px;
 }
 
 .blog_date {
@@ -1035,15 +1080,16 @@ html{
 
  .subscribe_input button {
 	border: none;
+	height: 60px;
 }
 
 .subscribe {
 	background: #1E2127;
 	border-radius: 30px;
-	padding: 57px 50px;
+	padding: 51px 49px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center; 
+	align-items: center;
 }
 
 .subscribe_text img {

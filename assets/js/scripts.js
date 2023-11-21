@@ -4,7 +4,7 @@ $(document).ready(function(){
         nav:false,
         dots:false,
         items:2.4,
-        margin: 50,
+        margin: 49,
         // autoplay:true,
         responsive : { 
           0 : {
@@ -19,7 +19,7 @@ $(document).ready(function(){
           },
           991 : {
               items:2.4,  
-              margin: 50,
+              margin: 49,
           }
       }
     });
