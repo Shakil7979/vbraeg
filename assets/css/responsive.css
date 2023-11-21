@@ -744,6 +744,10 @@
         height: 22px; 
         font-size: 14px; 
     } 
+    .help_item_logo i {
+        color: #fff;
+        font-size: 15px;
+    }
     .contact_img { 
         display: none;
     }

@@ -2883,6 +2883,11 @@ html{
 	margin-top: 141px;
  }
 
+ .help_item_logo i {
+	color: #fff;
+	font-size: 25px;
+}
+
  .contact_flex{
 	display: flex;
 	justify-content: space-between;
