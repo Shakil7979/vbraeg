@@ -732,6 +732,27 @@
         height: 22px; 
         font-size: 14px; 
     } 
+    .offer_text {
+        flex-direction: row; 
+    } 
+    .offers { 
+        flex-direction: column;
+    }
+    .comming_soonsss .arrival_single {
+        margin-bottom: 25px;
+    }
+    .part_right {
+        padding: 73px 25px 33px 24px;
+    }
+    .deal_single {
+        flex: 0 0 calc(100% / 2 - 20px); 
+    }
+    .review_slider { 
+        align-items: center;
+    }
+    .banner_tab ul li {
+        padding: 0 16px;
+    }
     .cart_flex { 
         flex-direction: column;
     }
@@ -829,6 +850,13 @@
     .shop_sub_tab ul li a { 
         font-size: 14px; 
         padding: 4px 6px; 
+    }
+    .offers_header h3 {
+        font-size: 16px;
+        display: ruby;
+    }
+    .offers_header {
+        flex-wrap: inherit;
     }
     .review_slider { 
         align-items: center;
@@ -1196,14 +1224,18 @@
     }
     .product_reviews_area {
         margin-bottom: 87px;
+    } 
+    .deal_icon {
+        gap: 10px;
     }
+
 }
 
 @media all and (max-width: 576px) {
     .banner_main {
         padding: 0 27px;
         height: 445px;
-    } 
+    }  
 
     .mobile_none_deal .deal_price span{
         font-size: 14px; 
@@ -1215,6 +1247,13 @@
         padding: 8px 9px; 
         font-size: 14px; 
         border-radius: 5px; 
+    }
+    .subscribe_input input {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .subscribe { 
+        padding: 14px 20px 18px 20px; 
     }
     .cart_coupon_input input {
         padding: 10px 14px; 
@@ -1627,13 +1666,7 @@
         font-size: 14px;
         margin-top: 5px;
     }
-    .subscribe_input input {
-        font-size: 12px;
-        padding: 6px 10px;
-    }
-    .subscribe { 
-        padding: 14px 20px 18px 20px; 
-    }
+
     .btn_2 { 
         flex: 0 0 28%;
     }
@@ -1807,6 +1840,26 @@
     .single_blog img {
         width: 121px !important;
     }
+    .subscribe_input button { 
+        height: 28px;
+    }
+    .footer_copy img {
+        width: 34px; 
+    }
+    .review_content h3 { 
+        padding-bottom: 7px;
+        margin-bottom: 6px;
+    }
+    .review_content h4 { 
+        justify-content: center;
+    }
+    .search_header input {
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    .single_footer ul li a {
+        font-size: 14px;
+    }
 }
 
 
@@ -1835,9 +1888,7 @@
     .offer_items li img {
         width: 72px !important;
     }
-    .subscribe_input button { 
-        height: 28px;
-    }
+
     .subscribe_text img {
         width: 41px;
     }
