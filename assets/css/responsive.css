@@ -830,6 +830,47 @@
         font-size: 14px; 
         padding: 4px 6px; 
     }
+    .review_slider { 
+        align-items: center;
+    }
+    .banner_tab ul li {
+        padding: 0 0;
+    }
+    .banner_main {
+        padding: 66px 35px 268px 35px;
+    }
+    .arrivale {
+        border-radius: 30px;
+        padding: 24px 20px;
+    }
+    .mb_border_line{
+        position: relative;
+        background: #15181D;
+    }
+    .mb_border_line:after{ 
+        position: absolute;
+        top: -2px;
+        bottom: -1px;
+        left: -2px;
+        right: -2px;
+        background: linear-gradient(rgba(24, 197, 225, 1), rgba(134, 102, 239, 1), rgba(251, 1, 255, 1));
+        content: '';
+        z-index: -1;
+        border-radius: 30px;
+    }
+    .deal_icon {
+        gap: 15px;
+    }
+    .banner_btn { 
+        left: 35px; 
+    }
+    .banner_btn ul { 
+        gap: 9px;
+    }
+    .banner_btn ul li a img { 
+        border-radius: 20px;
+        padding: 3px;
+    }
     .comming_area .deal_header { 
         margin-bottom: 32px ; 
     }
@@ -1163,6 +1204,7 @@
         padding: 0 27px;
         height: 445px;
     } 
+
     .mobile_none_deal .deal_price span{
         font-size: 14px; 
     }
@@ -1705,12 +1747,220 @@
     .color_price {
         font-size: 16px !important;
     }
+
+    .comming_area, .part_area, .arrivale_area, .offers_area, .blog_area, .subscribe_area, .review_area {
+        margin-bottom: 80px;
+    }
+    .footer_logo p {
+        margin: 0;
+    }
+    .footer_last_logo img {
+        width: 130px;
+        margin-top: 12px;
+    }
+    .footer_card {
+        margin-bottom: 53px;
+    }
+    .footer {
+        padding-bottom: 53px;
+    }
+    .footer_area {
+        padding: 29px 27px 24px 27px;
+    }
+    .footer_copy { 
+        padding-bottom: 0; 
+    }
+    .single_footer { 
+        margin-bottom: 57px;
+    }
+    .single_footer H3 { 
+        margin-bottom: 6px;
+    }
+    .single_footer ul li {
+        margin-bottom: 17px;
+    }
+    .block_desktop{
+        display: none;
+    }
+    .blog_mobile{
+        display: block;
+    }
+    .single_blog { 
+        gap: 13px; 
+        margin-bottom: 19px;
+    }
+    .blog_date li img {
+        width: 17px !important;
+    }
+    .blog_date { 
+        margin-top: 9px;
+    }
+    .blog_date li p {
+        font-size: 14px;
+    }
+    .single_blog { 
+        flex-direction: inherit;
+    }
+    .single_blog { 
+        padding: 20px 14px; 
+    }
+    .single_blog img {
+        width: 121px !important;
+    }
 }
 
 
 @media all and (max-width: 450px){
     .product_img > img {
         height: 327px;
+    }
+    .footer_card ul { 
+        justify-content: flex-start;  
+        gap: 10px;
+    }
+    .footer_area  .container {
+        padding: 0 !important;
+    } 
+    .footer_card ul li a img {
+        width: 40px;
+    }
+    .banner_tab ul li a {
+        width: 52px;
+        height: 52px;
+    } 
+    .color_price {
+        font-size: 12px !important;
+    }
+ 
+    .offer_items li img {
+        width: 72px !important;
+    }
+    .subscribe_input button { 
+        height: 28px;
+    }
+    .subscribe_text img {
+        width: 41px;
+    }
+    .offer_text { 
+        margin-top: 10px;
+    }
+    .offers_mobile_carousel {
+        margin-bottom: 80px;
+    }
+    .deal_header {
+        margin-bottom: 12px;
+    }
+    .offer_items li { 
+        margin-bottom: 14px;
+    }
+    .offer_items li { 
+        gap: 14px; 
+    }
+    .offer_text a {
+        font-size: 11px; 
+        padding: 4px 6px;
+    }
+    .offers_header { 
+        flex-wrap: inherit; 
+    }
+    .offers_header h3 { 
+        display: ruby;
+    }
+    .deal_area {
+        margin-bottom: 76px;
+    }
+    .deal_header_title.pre_header_btn a {
+        width: 121px;
+        height: 38px;
+    }
+    .offers_header h3 {
+        font-size: 16px;
+    }
+    .deal_header_title { 
+        gap: 5px; 
+    }
+    .arrivale_area .arrivale { 
+        padding: 0;
+    }
+    .deal_single h3 {
+        font-size: 12px;
+    }
+    .deal_price img {
+        width: 48px !important;
+    }
+    .deal {
+        padding: 24px 11px;
+    }
+    .mobile_none_deal .deal_price, .comming_soonsss .deal_price {
+        justify-content: space-between;
+        gap: 0; 
+    }
+    .deal_single {
+        flex: 0 0 calc(100% / 2 - 6px);
+    }
+    .mobile_none_deal .deal_price span {
+        font-size: 10px;
+    }
+    .review_client > img { 
+        border: 3px solid #333538; 
+    }
+    .comming_area, .part_area, .arrivale_area, .offers_area, .blog_area, .subscribe_area, .review_area {
+        margin-bottom: 72px;
+    }
+    .deal_icon {
+        gap: 8px;
+    }
+    .banner_btn { 
+        bottom: -110px; 
+    }
+    .review_client { 
+        margin-bottom: 4px;
+    }
+    .review_client > img {
+        width: 32px !important;
+    }
+    .review_clint_info h4 {
+        font-size: 12px;
+    }
+    .review_clint_info img {
+        width: 12px !important;
+    }
+    .review_slider {
+        gap: 13px;
+    }
+    .review_single p {
+        font-size: 12px;
+    }
+    .review_single {
+        padding: 15px;
+    }
+    .container {
+        padding: 0 24px;
+    }
+    .review_area {
+        margin-top: 120px;
+    }
+    .banner_tab ul { 
+        gap: 16px; 
+    }
+    .header_menu ul {
+        gap: 14px;
+    }
+    .banner_btn ul {
+        gap: 18px;
+    }
+    .banner_content h4 {
+        margin: 8px 0 4px 0;
+    }
+    .banner_btn ul li a img { 
+        border: 3px solid #303030 
+    }
+    .banner_btn ul li:last-child {
+        display: none;
+    }
+    .banner_tab ul {
+        padding-bottom: 5px;
+        margin: 28px 0 23px 0;
     }
     .cart_coupon_input input { 
         flex: 0 0 71%;

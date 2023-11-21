@@ -1755,7 +1755,12 @@ html{
 .sk_cart_item_mobil{
 	display: none;
 }
-
+.block_desktop{
+	display: block;
+}
+.blog_mobile{
+	display: none;
+}
 
    /*********************************/
   /*********** SHOP LIST CSS**********/

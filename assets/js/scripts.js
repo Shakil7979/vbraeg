@@ -9,7 +9,7 @@ $(document).ready(function(){
         responsive : { 
           0 : {
               items:1.2, 
-              margin: 20,
+              margin: 11,
           }, 
           480 : {
               items:1.2, 
@@ -106,6 +106,22 @@ $(document).ready(function(){
       items:1,
       margin: 20,
       autoplay:true, 
+      responsive : {  
+        0 : {
+          margin: 50,
+        },
+        767 : { 
+          margin: 30,
+        }, 
+    }
+  });
+    $(".blog_mobile_carousel").owlCarousel({
+      loop:true, 
+      nav:false,
+      dots:true,
+      items:1,
+      margin: 20,
+      autoplay:true 
   });
     $(".mobile_comming_carousle").owlCarousel({
       loop:true, 
