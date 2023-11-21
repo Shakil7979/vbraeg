@@ -2512,9 +2512,10 @@ html{
 	gap: 13px;
 }
 
-.cart_flex{
+.cart_flex {
 	display: flex;
-	gap: 44px;
+	/* gap: 44px; */
+	justify-content: space-between;
 }
 
 .cart_left{
@@ -2613,7 +2614,7 @@ html{
 }
 
 .cart_unit_price {
-	margin-right: 60px;
+	margin-right: 70px;
 }
 
 .cart_left_item {
@@ -2661,14 +2662,18 @@ html{
 	padding: 16px 24px;
 	background: #15181D;
 	color: #FFF;
-	font-family: 'Inter', sans-serif; 
+	font-family: 'Inter', sans-serif;
 	font-size: 21px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
 	border: none;
 	border-radius: 10px;
-} 
+	box-sizing: border-box;
+	box-sizing: border-box;
+	flex: 0 0 65%;
+	width: 100%;
+}
 
 .cart_coupon_input button {
 	width: 115px;
@@ -2700,6 +2705,15 @@ html{
 
 .cart_checkout_bank ul li a img { 
 	width: 41px;
+}
+
+.cart_info_checkout .btn_1 {
+	height: 69px; 
+}
+
+.header_cart_btn a {
+	padding: 13px 17px;
+	width: 251px;
 }
 
 .cart_checkout_bank ul {

@@ -106,11 +106,30 @@
     .single_game_detail iframe { 
         height: 257px;
     }
+    .checkout_bank_ul li a img {
+        width: 70px;
+    }
 }
 
 @media all and (max-width: 1550px){
     .shop_list_filter { 
         width: 324px;
+    }
+    .cart_unit_price {
+        margin-right: 42px;
+    }
+    .cart_left_img_box { 
+        gap: 18px; 
+    }
+
+    .cart_title_box h3 { 
+        font-size: 22px; 
+    }
+    .checkout_bank_ul { 
+        gap: 20px;
+    }
+    .checkout_bank_ul li a img {
+        width: 62px;
     }
     .product_solt p {
         font-size: 16px;
@@ -448,6 +467,26 @@
     .product_count_down h3 {
         font-size: 16px;
     }
+    .cart_love_btn a {
+        height: 100px; 
+        width: 60px; 
+    }
+    .cart_left_img_box > img {
+        width: 180px;
+        height: 236px;
+    }
+    .cart_info_checkout li p { 
+        font-size: 18px; 
+    }
+    .cart_info_checkout .btn_1 {
+        height: 60px;
+    }
+    .cart_check_info li p { 
+        font-size: 18px; 
+    }
+    .checkout_bank_ul li a img {
+        width: 50px;
+    }
     .product_count_down .deal_count_down p {
         font-size: 14px;
     }
@@ -542,6 +581,9 @@
 @media all and (max-width:1200px){
     .search_header input {
         max-width: 100%;
+    }
+    .checkout_bank_ul { 
+        margin-bottom: 25px;
     }
     .product_detials_info {
         padding: 23px 20px; 
@@ -663,6 +705,9 @@
         height: 22px; 
         font-size: 14px; 
     }
+    .cart_flex { 
+        flex-direction: column;
+    }
     .product_details { 
         flex-direction: column;
         gap: 27px;
@@ -754,6 +799,14 @@
     .shop_sub_tab ul li a { 
         font-size: 14px; 
         padding: 4px 6px; 
+    }
+    .header_cart_btn a { 
+        width: 145px;
+    }
+    .cart_count { 
+        width: 20px;
+        height: 20px; 
+        font-size: 14px; 
     }
 
     .product_description_area .row {
@@ -1023,8 +1076,58 @@
         padding: 0 27px;
         height: 445px;
     } 
+    .cart_title .deal_header {
+        margin-bottom: 15px;
+    }
+    .checkout_bank_ul li a img {
+        width: 44px;
+    }
+    .checkout_bank_ul {
+        gap: 12px;
+    }
+    .cart_info_checkout li p {
+        font-size: 14px;
+    }
+    .cart_info_checkout li { 
+        padding: 10px 12px;
+        margin-bottom: 14px; 
+        flex: 0 0 100%; 
+    }
+    .footer_logo.footer_tip_border p {
+        margin-bottom: 14px;
+    }
+    .sk_cart_support {
+        margin-top: 14px;
+    }
+    .cart_area {
+        margin-bottom: 80px;
+    }
+    .cart_logo { 
+        margin-top: 20px; 
+        padding: 20px; 
+    }
+    .cart_check_info.checkout_total li {
+        margin-bottom: 0;
+    }
+    .cart_checkout {
+        padding: 17px 20px;
+        border-radius: 20px; 
+    }
+    .checkout_total {
+        padding-top: 20px; 
+    }
+    .cart_check_info li { 
+        margin-bottom: 20px;
+    }
+    .cart_check_info li p {
+        font-size: 15px;
+    }
     .single_game_detail iframe {
         height: 145px;
+    }
+    .cart_info_checkout a {
+        flex: 0 0 100%;
+        height: 35px !important;
     }
     .single_game_detail img {
         height: 145px !important;
