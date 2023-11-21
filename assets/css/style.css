@@ -1703,7 +1703,12 @@ html{
 .product_desktop_p{
 	display: block;
 }
-
+.sk_cart_item_desktop{ 
+	display: block;
+}
+.sk_cart_item_mobil{
+	display: none;
+}
 
 
    /*********************************/
@@ -2518,6 +2523,10 @@ html{
 	justify-content: space-between;
 }
 
+.cart_coupon_input:last-child {
+	margin-bottom: 0;
+}
+
 .cart_left{
 	flex: 0 0 calc(70% - 22px);
 	position: relative;
@@ -2554,9 +2563,10 @@ html{
 	line-height: normal;
 }
 
-.cart_title_box{
+.cart_title_box {
 	display: flex;
 	gap: 21px;
+	align-items: center;
 }
 
 .cart_select select {
