@@ -206,7 +206,7 @@
         font-size: 18px; 
     }
     .shop_list_item {
-        flex: 0 0 68%;
+        flex: 0 0 73%;
     }
     .shop_filter_title h4 { 
         font-size: 18px;  
@@ -481,6 +481,12 @@
 @media all and (max-width:1440px){
     .product_count_down h3 {
         font-size: 16px;
+    }
+    .shop_list_item {
+        flex: 0 0 69%;
+    }
+    .banner_tab ul li {
+        padding: 0 20px;
     }
     .contact_from_box { 
         gap: 20px 0;
@@ -863,6 +869,10 @@
         font-size: 14px; 
         padding: 4px 6px; 
     } 
+    .from_price input {
+        width: 62.5px; 
+    }
+
     .contact_map iframe {
         width: 100%;
         height: 376px;
@@ -1283,8 +1293,42 @@
     .banner_main {
         padding: 0 27px;
         height: 445px;
-    }  
-
+    } 
+    .shop_filter_title h4 {
+        font-size: 14px;
+    }
+    .shop_filters_list ul li label {
+        font-size: 14px;
+    }
+    .deal_single.shop_list_single { 
+        margin-bottom: 15px;
+    } 
+    .shop_list_item { 
+        width: 100%;
+    }
+    .google_comment_recaptcha {
+        display: none;
+    }
+    .deal_header > span {
+        width: 111px; 
+    }
+    .part_right  .color_price {
+        font-size: 21px !important;
+    }
+    .subscribe_input input { 
+        border-radius: 5px; 
+        width: 70%; 
+    }
+    .part_right .deal_price img { 
+        display: none;
+    }
+    .comming_area .btn_1 {
+        font-size: 12px !important;
+        height: 36px;
+    }
+    .deal_header_title { 
+        gap: 20px; 
+    }
     .mobile_none_deal .deal_price span{
         font-size: 14px; 
     }
