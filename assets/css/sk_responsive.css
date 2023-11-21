@@ -4,21 +4,24 @@
         padding: 10px 16px;
         font-size: 16px;
     }
-    .ptb140 {
-        padding: 90px 0;
-    }
+    
     .p {
         font-size: 16px;
     }
-    .g-5, .gx-5 {
-        --bs-gutter-x: 1rem !important;
+    .customer_love_thum_right {
+        max-width: 180px;
+        width: 100%;
     }
-    .g-5, .gy-5 {
-        --bs-gutter-y: 1rem !important;
+    .customer_love_thum_left {
+        flex: 0 0 calc(100% - 196px);
+    }
+    .privacy_policy_main_area {
+        padding: 60px 0;
     }
     .help_item_logo {
-        width: 50px;
-        height: 50px;
+        width: 46px;
+        height: 46px;
+        margin-right: 14px;
     }
     .help_item_logo img{
         padding:8px;
@@ -30,15 +33,18 @@
         font-size: 15px;
     }
     .help_items {
-        padding: 20px;
+        padding: 15px 16px;
     }
     .page_heading_item h3 {
         font-size: 25px;
     }
     .search_headers input {
         font-size: 16px;
-        padding: 6px 10px;
+        padding: 7px 12px;
         border-radius: 5px;
+    }
+    .search_headers button {
+        right: 12px;
     }
     .search_headers button img {
         width: 15px;
@@ -47,9 +53,8 @@
         padding: 16px 16px;
         margin-bottom: 10px;
     }
-    .support_item {
-        margin-bottom:12px;
-        padding:14px;
+    .support_items_1 {
+        height: 226px;
     }
     .support_item input::placeholder, .support_item input, .support_item textarea, .support_item textarea::placeholder {
         font-size: 16px;
@@ -58,9 +63,7 @@
         font-size: 16px;
         margin-bottom: 5px;
     }
-    .support_item textarea {
-        height:auto;
-    }
+ 
     .support_item_file span {
         font-size: 15px;
         padding: 23px 10px;
@@ -73,23 +76,27 @@
     }
     .common_title_section p {
         font-size: 15px;
-        margin-bottom: 25px;
+        margin-bottom: 31px;
         line-height: 22px;
     }
     .common_title_section ul li {
         font-size: 15px;
-        margin-bottom:10px;
+        margin-bottom: 23px;
+    }
+    .affiliate_sell_instion,.affiliate_fag_area{
+        padding: 60px 0;
     }
     .common_title_section ul li img {
         width: 26px;
         margin-right: 11px;
     }
     .common_title_section {
-        margin-bottom: 30px;
+        margin-bottom: 39px;
         padding-bottom: 30px;
-    }.common_title_section_border_less{
+    }
+    .common_title_section_border_less{
         margin-bottom: 0px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
     }
     .common_title_section h3 span {
         width: 30px;
@@ -107,6 +114,9 @@
     .refund_policy_body .common_title_section ul li {
         margin-bottom:10px;
     }
+    .cupon_main_area {
+        padding: 60px 0;
+    }
     .c_patner_url p {
         font-size: 15px;
         margin-top: 15px;
@@ -116,6 +126,15 @@
         font-size:25px;
         margin-top: 10px;
         margin-bottom: 15px;
+    }
+    .terms_of_use_area {
+        padding: 60px 0;
+    }
+    .sell_section_1 {
+        padding: 60px 0;
+    }
+    .affiliate_padding{
+        padding: 60px 0;
     }
     .sell_common_heading_area p {
         margin-bottom: 40px;
@@ -180,14 +199,17 @@
         line-height: 25px;
     }
     .affiliate_faq_item {
-        margin-bottom: 10px;
+        margin-bottom: 13px;
     }
     .affiliate_faq_item .panel p {
         font-size: 15px;
         padding: 8px 0;
     }
+    .review_calculation_aera {
+        padding-bottom: 77px;
+    }
     .love_us_list {
-        margin-bottom:60px;
+        padding: 60px 0;
     }
     .love_us_list h3 {
         font-size: 25px;
@@ -217,15 +239,16 @@
         font-size: 15px;
     }
     .truspoint_item {
-        padding: 22px 10px;
+        padding: 21px 10px;
     }
     .customer_review_item {
-        padding: 22px;
-        margin-top:22px;
+
+        margin-top: 22px;
+        padding: 12px 34px 13px 12px;
+        border: 1px solid rgba(255, 255, 255,0.2);
+        border-radius: 15px;
     }
-    .pb140 {
-        padding-bottom: 90px;
-    }
+    
     .review_calculation_item h5 {
         font-size: 24px;
     }.review_calculation_item ul li {
@@ -234,9 +257,14 @@
         display: flex;
     }
     .review_calculation_item ul li img {
-        width: 20px;
+        width: 23px;
         margin-right: 8px;
-        height: 20px;
+        height: 23px;
+    }
+    .review_calculation_item ul li {
+        margin-top: 23px;
+        font-size: 16px;
+        display: flex;
     }
     .about_client_info_details h4 {
         font-size: 18px;
@@ -254,20 +282,58 @@
         margin-top: 38px;
         margin-bottom: 38px;
     }
+    .we_help_area {
+        padding: 60px 0;
+    }
+    .help_topic_tab_btn {
+        flex-basis: 350px;
+    }
+    .help_topic_tab_body {
+        flex: 0 0 calc(100% - 394px);
+    }
+    .contact_support_area_outter {
+        padding:60px 0;
+    }
+    .sell_commition {
+        padding: 81px 0 119px 0;
+    }
 }
 @media all and (max-width:1200px){
+    .need_help_heading {
+        margin-top: 59px;
+    }
+    .we_help_area {
+        padding:63px 0;
+    }
+    .contact_support_area_outter {
+        padding: 27px 0 80px 0;
+    }
+    .customer_outter_right {
+        max-width: 345px;
+    }
+    .customer_love_thum {
+        flex: 0 0 calc(100% - 399px);
+    }
+    
+   
     
 }
 @media all and (max-width:991px){
-    .need_help_heading {
-        margin-top: 80px;
-        margin-bottom:0px;
+    
+    .customer_love_outter {
+        flex-wrap: wrap;
     }
-    .ptb140 {
-        padding: 70px 0;
+    .customer_love_thum {
+        flex-basis: 100%;
+        
     }
-    .pb140 {
-        padding-bottom: 70px;
+    .customer_outter_right {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .help_items {
+        flex: 0 0 calc(100% / 2 - 8px);
+        margin-top: 16px;
     }
     .help_topic_tab_btn {
         flex-basis: 42%;
@@ -278,8 +344,15 @@
     .support_item {
         flex-basis: 100%;
     }
+    .google_support_recaptcha {
+        display: inherit;
+    }
+    .contact_support_area {
+        flex-wrap: wrap;
+    }
     .contact_support_left, .contact_support_right {
-        width: 49%;
+        width: 100%;
+        flex-basis: 100%;
     }
     .google_support_recaptcha .btn_c {
         margin-left: 0;
@@ -304,22 +377,28 @@
     .sell_instion_btn .btn_c {
         padding: 8px 27px;
     }
-    .customer_love_thum_left img {
+
+    .market_policy_item {
+        flex-basis:47%;
         height: auto;
     }
-    .customer_love_thum_right img {
-        height: 146px;
+    .start_selling_grid {
+        flex-wrap: wrap;
     }
+    .love_heading_area {
+        padding-top:60px;
+    }
+    
     
 }
 @media all and (max-width:767px){
-    .page_heading_item {
-        justify-content: center;
-        flex-wrap: wrap;
+    .we_help_area {
+        padding: 31px 0 63px 0;
     }
-    .page_heading_item span {
-        margin: 15px;
+    .help_topic_area {
+        padding: 27px 0 109px 0;
     }
+ 
     .help_item_logo {
         margin-right: 15px;
         width: 40px;
@@ -328,11 +407,10 @@
     .help_item_logo img {
         max-width: 40px;
     }
-    .need_help_heading {
-        text-align: center;
-    }
     .btn_c {
-        padding: 8px 16px;
+        padding: 6px 8px;
+        font-size: 12px;
+        border-radius: 6px;
     }
     .help_topic_tab_btn {
         flex-basis: 100%;
@@ -343,14 +421,15 @@
     }
     .btn_c_2 {
         font-size: 15px;
-        padding: 8px 16px;
+        padding: 7px 12px;
     }
     .help_topic_tab_btn ul li {
-        padding: 12px 16px;
+        padding: 13px 16px;
+        border-radius: 15px;
     }
     .help_topic_tab_cont_itm .page_heading_item h3 {
         margin-bottom: 14px;
-        font-size: 18px;
+        font-size: 16px;
     }
     .contact_support_area {
         flex-wrap: wrap;
@@ -369,13 +448,10 @@
     }
     .common_title_section h3 {
         font-size: 18px;
-        margin-bottom: 11px;
-    }
-    .common_title_section h4 {
-        font-size: 17px;
+        margin-bottom: 22px;
     }
     .common_title_section ul {
-        margin-top: 28px;
+        margin-top: 26px;
     }
     .c_patner_logo {
         height: 150px;
@@ -383,15 +459,13 @@
     .sell_common_heading_area img {
         width: 50px;
     }
-    .market_p_item_logo img{
-        width: 20px;
-    }
+ 
     .market_p_item_logo {
-        width: 50px;
-        height: 50px;
+        width: 58px;
+        height: 58px;
     }
     .market_policy_item {
-        padding: 10px;
+        padding: 12px 11px;
         border-radius: 8px;
         display: flex;
         align-items: center;
@@ -422,8 +496,8 @@
         font-size: 14px;
     }
     .sell_instraction_item .market_p_item_logo {
-        width: 50px;
-        height: 50px;
+        width: 58px;
+        height: 58px;
     }
     .sell_instraction_item {
         margin-bottom: 35px;
@@ -440,7 +514,7 @@
     .commingsoon_item .market_p_cont{
         text-align: center;
         width: 100%;
-        margin-top: 10px;
+        margin-top:0px;
     }
     .affiliate_question .accordion{
         position: relative;
@@ -455,26 +529,24 @@
         display: inline-block;
         width: 90%;
     }
-    .customer_love_thum_right img {
-        height: 104px;
-    }
-    .customer_love_thum_left {
-        margin-bottom: 25px;
-    }
+
     .customer_review_item {
-        padding: 15px;
+        margin-top: 22px;
     }
     .review_calculation_item {
-        padding: 24px;
+        margin-top: 23px;
     }
     .review_calculation_item h5 {
         font-size: 18px;
     }
+    .review_calculation_item {
+        padding: 24px 0px 23px 20px;
+    }
     .customer_love_area {
         padding-bottom: 0;
     }
-    .review_calculation_aera{
-        padding: 70px 0;
+    .review_calculation_aera {
+        padding: 80px 0 77px 0;
     }
     .about_list_desktop h4 {
         font-size: 16px;
@@ -488,11 +560,13 @@
         display: inline-block;
     }
     .truspoint_item img {
-        max-width: 101px;
+        max-width: 119px;
         margin-bottom: 5px;
-        margin-right: 5px;
-        border-right: 2px solid #66676b;
-        padding-right: 9px;
+        margin-right: auto;
+        border-right: 2px solid transparent;
+        padding-right: 0;
+        width: 100%;
+        display: block;
     }
     .about_client_info_details > p:last-child {
         padding-bottom: 30px;
@@ -500,6 +574,123 @@
     .about_page ul li {
         align-items: flex-start;
     }
+    .help_topic_tab_cont_itm .page_heading_item {
+        margin-bottom: 45px;
+    }
+    .contact_support_area {
+        margin-top: 0;
+        gap: 0px;
+    }.support_items {
+        gap: 0;
+        flex-wrap: wrap;
+    }
+    .support_item {
+        margin-bottom: 0;
+        padding: 14px 16px;
+        margin-top: 16px;
+    }
+    .support_item label {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+    .support_items_1 {
+        height: 116px;
+        margin-bottom: 16px;
+    }
+    .google_support_recaptcha {
+        margin-top: 16px;
+    }
+    .privacy_policy_main_area {
+        padding: 27px 0 63px 0;
+    }
+     
+    .common_title_section h4 {
+        margin-bottom: 11px;
+       font-size: 16px;
+    }
+    .cupon_main_area {
+        padding: 27px 0 68px 0;
+    }
+    .cupon_main_area .gy-5 {
+        --bs-gutter-y: 22px;
+    }
+    .coupon_patner_item {
+        padding: 12px 16px 16px 17px;
+    }
+    .sell_section_1 {
+        padding: 55px 0 65px 0;
+    }
+    .sell_section_1 .sell_common_heading_area h1 {
+        margin-top: 14px;
+    }
+    .sell_section_1 .sell_common_heading_area p {
+        margin-bottom: 35px;
+        font-size: 15px;
+    }
+    .market_policy_item {
+        flex-basis: 100%;
+        height: auto;
+    }
+    .start_selling_grid {
+        gap: 15px;
+    }
+    .selling_product_logo_aera {
+        margin-top: 21px;
+        margin-bottom: 80px;
+    }
+    .sell_product_logo_items {
+        gap: 11px;
+    }
+    .sell_pl_item{
+        margin: 0;
+    }
+    .best_sell h1{margin-bottom: 7px;}
+    .best_sell p{
+        margin-bottom: 38px !important;
+    }
+    .affiliate_padding {
+        padding:55px 0 69px 0;
+    }
+    .sell_instraction_items.offer_item_affiliate .sell_instraction_item {
+        align-items: flex-start;
+    }
+    .affiliate_after .sell_instraction_item .market_p_cont h1 {
+        margin-top: 13px;
+    }
+    .affiliate_sell_instion, .affiliate_fag_area {
+        padding: 80px 0 78px 0;
+    }
+    .accordian_btn {
+        margin-top: 22px;
+    }
+    .accordian_btn .btn_c {
+        padding: 7px 15px;
+        font-size: 13px;
+    }
+    .affiliate_question .accordion::after {
+        height: 22px;
+        width: 22px;
+        line-height: 20px;
+    }
+    .page_heading_social_link ul li a {
+        height: 22px;
+        width: 22px;
+        margin-left: 4px;
+        padding: 1px;
+    }
+    .page_heading_social_link ul li a img {
+        width: 9px;
+    }
+    .love_logo_mobile{
+        display: block !important;
+    }
+    .love_logo_desktop {
+        display: none !important;
+    }
+    .love_heading_area {
+        padding-top: 31px;
+    }
+    
 }
 @media all and (max-width: 576px) {
     .commingsoon_item {
@@ -524,7 +715,7 @@
     .comeing_cal_item {
         text-align: left;
         max-width: 100%;
-        margin-top:22px;
+        margin-top: 20px;
     }
     .comeing_cal_item h2 {
         text-align: left;
@@ -537,34 +728,187 @@
     }
     .comeming_calculation {
         margin-left: 70px;
+        padding-top: 0;
     }
-    .commingsoon_item_left:last-child{
-        margin-top: 50px;
+    .commingsoon_item_left:last-child {
+        margin-top: 54px;
     }
     .sell_instraction_area .container_after {
-        padding: 35px 10px;
+        padding: 33px 0 34px 0;
     }
-    .love_us_list_mobile{
-        display: block;
+    .love_us_list_mobile {
+	display: block;
+	margin-top: 25px;
     }
     .customer_love_thum_right img:last-child {
         margin-top: 10px;
     }
-    .customer_love_thum_right img {
-        height: 73px;
-    }
+   
     .love_us_list h3 {
         font-size: 18px;
     }
     .love_us_list ul {
-        margin-top: 23px;
+        margin-top: 25px;
     }
     .love_us_list ul li {
         margin-bottom:25px;
         font-size: 15px;
     }
-    .customer_love_thum .col-3{
-        padding-left: 0;
+    .help_items {
+        flex: 0 0 calc(100% / 1 - 0px);
+        margin-top: 16px;
     }
-    
+    .page_heading_item h3 {
+        font-size: 16px;
+    }
+     .mobile_hide_border{
+        display: none !important;
+     }
+     .help_heading_search_box {
+        max-width: 145px;
+        width: 100%;
+    }
+    .help_item_info h4 {
+        font-size: 16px;
+    }
+    .help_item_info p {
+        font-size: 12px;
+    }
+    .need_help_heading .page_heading_item {
+        margin-bottom: 11px;
+    }
+    .need_help_heading p {
+        margin-bottom: 9px;
+    }
+    .help_topic_tab_btn ul li{
+        font-size: 14px;
+    }
+    .sell_common_heading_area {
+        max-width: 271px;
+        margin: 0 auto;
+    }
+    .sell_common_heading_area_2{
+        max-width:309px;
+    }
+    .sell_common_heading_area_2 p {
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+    .sell_heading_3 {
+        max-width: 280px;
+    }
+    .sell_heading_3 p {
+        margin-bottom: 37px;
+        font-size: 14px;
+    }
+    .sell_commition .market_p_cont h4 {
+        margin-top: 0;
+    }
+    .market_p_item_logo_sell{
+        border-radius: 35% !important;
+    }
+    .commingsoon_item_area {
+        max-width: 270px;
+    }
+    .affiliate_page .sell_common_heading_area h1 {
+        margin-bottom: 10px;
+    }
+    .affiliate_page .sell_common_heading_area p {
+        margin-bottom: 35px;
+    }
+    .sell_common_heading_area img {
+        width: 45px;
+    }
+    .sell_instraction_area .container {
+        padding:0px 10px;
+    }
+    .sell_common_heading_area.affiliate_se_2 {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    .sell_common_heading_area.affiliate_se_2 p {
+        margin-bottom: 37px;
+        font-size: 14px;
+    }
+    .affiliate_market_p .sell_instraction_item {
+        margin-bottom: 30px;
+    }
+    .sell_instraction_area.affiliate_sell_instion{
+        padding: 75px 0 83px 0;
+    }
+    .sell_instraction_area.affiliate_sell_instion .sell_common_heading_area{
+            max-width: 295px;
+            margin: 0 auto;
+    }
+    .sell_instraction_items.offer_item_affiliate .market_p_item_logo{
+        border-radius: 15px;
+    }
+    .sell_instraction_items.offer_item_affiliate .sell_instraction_item {
+        margin-bottom: 30px;
+         
+    }
+    .sell_instraction_items.offer_item_affiliate .sell_instraction_item .market_p_item_logo img {
+        width: 25px;
+    }
+    .container_after.affiliate_after .sell_common_heading_area p{
+        margin-bottom: 38px;
+    }
+    .affiliate_question h1 {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    .affiliate_question .accordion {
+        font-size: 13px;
+        padding: 19px 19px 14px 19px;
+    }
+    .affiliate_question .accordion::after {
+        right: 13px;
+    }
+    .customer_love_thum_left {
+        flex: 0 0 calc(100% - 125px);
+    }.love_img_outter {
+        display: flex;
+        gap: 5px;
+    }
+    .customer_love_thum_right img:last-child {
+        margin-top: 5px;
+    }
+    .customer_love_thum_right img:first-child {
+        margin-bottom: 0;
+    }
+    .love_us_list {
+        padding: 0;
+    }
+    .truspoint_item p {
+        font-size: 11px;
+    }
+    .review_ad_name h6 {
+        font-size: 12px;
+    }
+    .review_ad_logo img {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255,0.2);
+        padding: 3px;
+    }.review_ad_logo {
+        margin-right: 9px;
+    }.review_admin {
+        display: flex;
+        align-items: flex-start;
+    }
+    .review_ad_name ul li img {
+        width: 12px;
+    }
+    .review_ad_name ul li {
+        margin-right: 2px;
+        line-height: 0;
+    }
+    .customer_review_item p {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+
+
+
 }
