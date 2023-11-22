@@ -744,6 +744,9 @@
         height: 22px; 
         font-size: 14px; 
     } 
+    .extra_product_page_padding .product_img > img {
+        height: auto;
+   }
     .help_item_logo i {
         color: #fff;
         font-size: 15px;
@@ -872,6 +875,11 @@
     .shop_sub_tab ul li a { 
         font-size: 14px; 
         padding: 4px 6px; 
+    }
+    .extra_product_page_padding .product_save_del_btn ul {
+ 
+        padding-bottom: 0;
+        border: none;
     }
     .deal_main { 
         margin: 2px;
@@ -1964,6 +1972,9 @@
     }
     .single_footer ul li a {
         font-size: 14px;
+    }
+    .product_details_area .btn_1 img {
+        width: 17px !important;
     }
 }
 
