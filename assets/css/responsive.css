@@ -872,7 +872,13 @@
     .shop_sub_tab ul li a { 
         font-size: 14px; 
         padding: 4px 6px; 
+    }
+    .deal_main { 
+        margin: 2px;
     } 
+    .deal_single.arrival_single {
+        margin: 2px;
+    }
     .from_price input {
         width: 62.5px; 
     }

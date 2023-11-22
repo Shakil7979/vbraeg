@@ -540,7 +540,7 @@ html{
 .border_line::after {
 	position: absolute;
 	top: -2px;
-	bottom: -1px;
+	bottom: -2px;
 	left: -2px;
 	right: -2px;
 	background: linear-gradient(rgba(24, 197, 225, 1), rgba(134, 102, 239, 1), rgba(251, 1, 255, 1));
