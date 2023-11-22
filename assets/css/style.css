@@ -994,6 +994,10 @@ html{
 	margin-bottom: 17px;
 }
 
+.mobile_none_letest_blog{
+	display: block !important;
+}
+
 .blog_date {
 	display: flex;
 	align-items: center;

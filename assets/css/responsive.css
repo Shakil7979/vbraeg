@@ -831,7 +831,7 @@
         display: none;
     }
     #mobile_bars img {
-        width: 24px;
+        width: 20px;
     }
     .logo {
         display: flex;
@@ -839,13 +839,19 @@
         gap: 15px;
     }
     .logo a > img {
-        width: 121px;
+        width: 100px;
+    }
+    .header_menu ul li:nth-child(3) a img {
+        width: 24px;
     }
     .header_menu ul { 
         gap: 26px;
     }
+    .header_menu ul li:nth-child(4) a img {
+        width: 21px;
+    }
     .header_menu ul li a img {
-        width: 25px;
+        width: 20px;
     }
     .latest_blog_singal { 
         margin-bottom: 40px;
@@ -1315,6 +1321,12 @@
         padding: 0 27px;
         height: 445px;
     } 
+    .blog_banenr_time li img { 
+        margin-left: 20px;
+    }
+    .mobile_none_letest_blog{
+        display: none !important;
+    }
     .shop_filter_title h4 {
         font-size: 14px;
     }
@@ -1668,8 +1680,8 @@
         display: flex;
         gap: 13px;
     }
-    .latest_blog_singal > img {
-        width: 121px;
+    .latest_blog_singal > img { 
+        height: 121px;
     }
     .blog_banenr_time {
         display: flex;
