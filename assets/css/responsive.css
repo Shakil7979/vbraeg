@@ -877,7 +877,10 @@
         margin: 2px;
     } 
     .deal_single.arrival_single {
-        margin: 2px;
+        margin: 5px 2px 2px 2px;
+    }
+    .deal_single.border_line::after {  
+        border-radius: 12px;
     }
     .from_price input {
         width: 62.5px; 

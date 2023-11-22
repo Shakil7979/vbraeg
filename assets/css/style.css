@@ -492,8 +492,8 @@ html{
 	line-height: normal;
 }
 
-.review_carousel .border_line:after{
-	border-radius: 20px;
+.review_carousel .border_line::after {
+	border-radius: 15px;
 }
 
 .review_clint_info img{
