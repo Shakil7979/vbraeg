@@ -1,4 +1,4 @@
-@media all and (min-width: 1550px ){
+/* @media all and (min-width: 1550px ){
     .container{
         max-width: 1500px;
     }
@@ -8,7 +8,9 @@
     .container{
         max-width: 1664px;
     }
-}
+} */
+
+
 
 @media all and (max-width: 1750px){
     .product_count_down h3 { 
@@ -123,6 +125,46 @@
     }
     .checkout_bank_ul li a img {
         width: 70px;
+    }
+}
+
+@media all and (min-width: 1550px){
+    .deal_icon { 
+        gap: 20px; 
+    }
+    .deal_icon_width, .deal_icon li:nth-child(3) img, .deal_icon li:nth-child(4) img {
+        width: 27px !important;
+    }
+    .deal_icon_width, .deal_icon li:nth-child(3) img, .deal_icon li:nth-child(4) img {
+        width: 27px !important;
+    }
+    .deal_icon li img {
+        width: 33px !important;
+    }
+    .deal_price > img {
+        width: 100px;
+    }
+    .header_menu ul { 
+        gap: 24px;
+    }
+    .header_menu ul li a img {
+        width: 30px;
+    }
+    .search_header button { 
+        right: 30px;
+    }
+    .part_right h3 { 
+        font-size: 46px; 
+    }
+
+    .color_price { 
+        font-size: 20px !important; 
+    }
+    .offer_text a { 
+        font-size: 14px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -464,8 +506,8 @@
     .article_tags ul li a { 
         font-size: 16px; 
     } 
-    .search_header button { 
-        right: 44px;
+    .search_header button {
+        right: 110px;
     }
     .not_p { 
         gap: 4px;
@@ -481,6 +523,9 @@
 @media all and (max-width:1440px){
     .product_count_down h3 {
         font-size: 16px;
+    }
+    .search_header button {
+        right: 52px;
     }
     .shop_list_item {
         flex: 0 0 69%;

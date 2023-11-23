@@ -20,6 +20,10 @@ $(document).ready(function(){
           991 : {
               items:2.4,  
               margin: 49,
+          },
+          1200 : {
+              items:2.1,  
+              margin: 49,
           }
       }
     });
