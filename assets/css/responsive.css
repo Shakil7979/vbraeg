@@ -1321,7 +1321,7 @@
         padding: 0 27px;
         height: 445px;
     } 
-    .blog_banenr_time li img { 
+    .blog_banner_area .blog_banenr_time li img { 
         margin-left: 20px;
     }
     .mobile_none_letest_blog{
@@ -1688,8 +1688,7 @@
         gap: 0;
     }
     .latest_blog_singal { 
-        padding: 14px 10px;
-        border-radius: 20px;
+        padding: 14px 10px; 
         margin-bottom: 19px;
     }
     .blog_banenr_time li > p { 
