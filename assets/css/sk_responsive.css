@@ -237,18 +237,17 @@
     .customer_review_item p {
         margin-top: 15px;
         font-size: 15px;
+    }.client_review_p {
+        font-size: 14px !important;
     }
-    .truspoint_item {
-        padding: 21px 10px;
+    .about_page_love_cnte p {
+        font-size: 16px;
     }
     .customer_review_item {
-
         margin-top: 22px;
-        padding: 12px 34px 13px 12px;
         border: 1px solid rgba(255, 255, 255,0.2);
         border-radius: 15px;
     }
-    
     .review_calculation_item h5 {
         font-size: 24px;
     }.review_calculation_item ul li {
@@ -296,6 +295,31 @@
     }
     .sell_commition {
         padding: 81px 0 119px 0;
+    }
+    .redeem_game_area {
+        padding: 60px 0;
+    }
+    .common_title_section.redeeg_game_p_heding_1 {
+        padding-bottom: 40px;
+    }
+    .redeeg_game_p_heding_1 p {
+        margin-bottom: 0;
+    }
+    .redeeg_game_p_heding_1 h3 {
+        margin-bottom: 21px;
+    }
+    .redeeg_game_p_heding_2 .common_title_section p {
+        margin-bottom: 25px;
+    }
+    .refund_page_area {
+        padding: 60px 0;
+    }
+    .refund_title_1 h4 {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .love_heading_area {
+        padding-top: 60px;
     }
 }
 @media all and (max-width:1200px){
@@ -387,6 +411,9 @@
     }
     .love_heading_area {
         padding-top:60px;
+    }
+    .about_page_love_outter{
+        gap: 0;
     }
     
     
@@ -673,24 +700,65 @@
         line-height: 20px;
     }
     .page_heading_social_link ul li a {
-        height: 22px;
-        width: 22px;
+        height: 24px;
+        width: 24px;
         margin-left: 4px;
         padding: 1px;
     }
     .page_heading_social_link ul li a img {
         width: 9px;
     }
-    .love_logo_mobile{
-        display: block !important;
-    }
-    .love_logo_desktop {
-        display: none !important;
-    }
     .love_heading_area {
         padding-top: 31px;
     }
-    
+    .redeem_game_area {
+        padding:27px 0 73px 0;
+    }
+    .reddem_topic_tab_area{
+        margin-top: 17px;
+    }
+    .redeeg_game_p_heding_2 ul li{
+        align-items: flex-start !important;
+    }
+    .refund_tab_area{
+        margin-top: 15px;
+    }
+    .refund_page_area{
+        padding: 27px 0 57px 0;
+    }
+    .about_page_love_cnte h4 {
+        font-size: 16px;
+        margin-bottom:14px;
+    }
+    .about_page_love_cnte p {
+        font-size: 15px;
+    }
+    .about_page_love_cnte b {
+        margin-top: 33px;
+    }
+    .about_love_list {
+        padding: 30px 0 77px 0 !important;
+    }
+    .about_love_list h3{
+        font-size: 16px;
+    }
+    .about_love_list ul li{
+        font-size: 15px;
+        margin-bottom: 22px;
+    }
+    .about_client_info_detail_logo img {
+        width: 73px;
+        height: 73px;
+        border-right: 10px;
+        border: none;
+        border: 3px solid #484848;
+    }
+    .about_client_info_detail_logo h4{
+        font-size: 16px;
+    }
+    .love_logo_desktop {
+        width: 35px;
+    }
 }
 @media all and (max-width: 576px) {
     .commingsoon_item {
@@ -886,8 +954,8 @@
         font-size: 12px;
     }
     .review_ad_logo img {
-        width: 28px;
-        height: 28px;
+        width:33px;
+        height:33px;
         border-radius: 50%;
         border: 1px solid rgba(255, 255, 255,0.2);
         padding: 3px;
@@ -907,6 +975,10 @@
     .customer_review_item p {
         margin-top: 8px;
         font-size: 12px;
+    }
+    .refund_title_1 {
+        margin-bottom: 25px;
+        padding-bottom: 0px;
     }
 
 
