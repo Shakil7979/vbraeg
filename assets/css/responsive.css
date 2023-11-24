@@ -166,6 +166,14 @@
         justify-content: center;
         align-items: center;
     }
+    .product_revies_row .owl-next, .game_main .owl-next, .comming_soon .owl-next, .blog_carousel .owl-next {
+ 
+        right: -100px;
+    }
+    .product_revies_row .owl-prev, .game_main .owl-prev, .comming_soon .owl-prev, .blog_carousel .owl-prev {
+ 
+        left: -100px; 
+    }
 }
 
 @media all and (max-width: 1550px){
