@@ -135,6 +135,12 @@
     .deal_icon { 
         gap: 20px; 
     }
+    .share_blog { 
+        max-width: 54%; 
+    }
+    .checkout_bank_ul li a img {
+        width: 58px;
+    }
     .shop_list_item {
         flex: 0 0 69%;
     } 
