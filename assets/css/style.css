@@ -93,6 +93,7 @@ html{
 	justify-content: space-between;
 	flex-wrap: wrap;
 	padding: 54px 0 33px 0;
+	position: relative;
 	border-bottom: 1px solid #dddddd1c;
 }
 
@@ -109,7 +110,7 @@ html{
   flex: 0 0 60%;
 }
 
-.header_menu ul {
+.header_menu > ul {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -156,7 +157,7 @@ html{
 	right: 80px;
 }
 
-.header_menu ul li a span {
+.header_menu ul li a > span {
 	background: linear-gradient(279deg, #FC00FF -2.62%, #00DBDE 82.81%);
 	width: 28px;
 	display: inline-block;
@@ -177,6 +178,106 @@ html{
 
 .header_menu ul li:nth-child(3) a img {
 	width: 33px;
+}
+
+#myTab { 
+	border: none; 
+	display: flex;
+	justify-content: space-between;
+}
+.deal_icon_width.index_dealIcon {
+	width: 29px !important;
+}
+.currency_tab {
+	max-width: 518px;
+	width: 100%;
+	position: absolute;
+	background: #000;
+	right: 0;
+	display: block;
+	padding: 30px 44px;
+	border-radius: 10px;
+	top: 111px;
+	z-index: 999;
+}
+
+.header_menu > ul li {
+	position: relative;
+}
+
+.currency_tab > ul li {
+	width: 48%;
+}
+
+.currency_tab ul li button {
+	width: 100%;
+	border: none !important;
+}
+
+
+.currency_tab ul li button {
+	width: 100%;
+	color: #FFF !important;
+	text-align: center;
+	font-family: Open Sans;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 10px 0;
+	border: 1px solid #727272 !important;
+	border-radius: 5px !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+	
+	border: 1px solid transparent !important;
+	border-radius: 5px !important;
+	background: linear-gradient(232deg, #FC00FF -2.29%, #00DBDE 104.47%);
+ 
+}
+
+
+.curreny_content ul li a {
+	color: #FFF;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 26px 0;
+	display: inline-block;
+	border-bottom: 1px solid #727272;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.curreny_content ul li:last-child a { 
+	border-bottom: 1px solid transparent;
+}
+
+.curreny_content .toggle-control { 
+	margin-top: -14px;
+}
+
+.curreny_content ul li a img {
+	margin-right: 21px;
+}
+
+.currency_switch {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.currency_tab{
+	display: none;
+}
+.product_header_details {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 
@@ -2041,8 +2142,9 @@ html{
 }
 
 .product_img > img {
-	width: 100%; 
-	height: 1057px;
+	width: 100%;
+	height: 666px;
+	margin-bottom: 35px;
 }
 
 .product_right_contentt{ 
@@ -2089,6 +2191,15 @@ html{
 	width: 42px;
 }
 
+.extra_product_page_padding .product_img > img {
+	height: 728px;
+}
+.deal_icon li:nth-child(6) img {
+	width: 33px !important;
+}
+.deal_icon li:nth-child(5) img {
+	width: 33px !important;
+}
 .product_count_down {
 	background: linear-gradient(288deg, #FC00FF 14.86%, #00DBDE 209.26%);
 	padding: 25px 26px;
@@ -2338,6 +2449,7 @@ html{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	position: relative;
 }
 
 .learn_more_text {
@@ -3023,9 +3135,6 @@ html{
 	padding-bottom: 30px;
 }
 
-.extra_product_page_padding .product_img > img {
- 	height: 960px;
-}
 
 .line_pre {
 	width: 1px;

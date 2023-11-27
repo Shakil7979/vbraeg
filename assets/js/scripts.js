@@ -209,6 +209,12 @@ $(document).ready(function(){
     return false;
   });
 
+  $(document).on('click','.doller_currency_link',function(){
+    $('.currency_tab').slideToggle();
+
+    return false;
+  });
+
 
 })
 

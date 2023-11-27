@@ -16,6 +16,9 @@
     .product_count_down h3 { 
         font-size: 20px; 
     }
+    .extra_product_page_padding .product_img > img {
+        height: 683px;
+    }
     .shop_list_item {
         flex: 0 0 72%;
     }
@@ -84,8 +87,8 @@
     .deal_price select {
         padding: 8px 10px; 
     }
-    .product_img > img { 
-        height: 996px;
+    .product_img > img {
+        height: 587px;
     }
     .learn_more_text p a, .learn_more_text p { 
         font-size: 18px; 
@@ -93,13 +96,13 @@
     .learn_more_text img {
         width: 26px;
     }
-    .header_menu ul li a img {
+    .header_menu > ul li a img {
         width: 30px;
     }
-    .header_menu ul li:nth-child(4) a img {
+    .header_menu > ul li:nth-child(4) a img {
         width: 26px;
     }
-    .header_menu ul {
+    .header_menu > ul {
         gap: 30px;
     }
     .search_header button { 
@@ -132,22 +135,70 @@
     .deal_icon { 
         gap: 20px; 
     }
+    .shop_list_item {
+        flex: 0 0 69%;
+    } 
+    .description_saller_item p { 
+        font-size: 16px; 
+    }
+    .single_game_detail iframe { 
+        height: 225px; 
+    }
+    .description_date ul li a { 
+        font-size: 16px; 
+    }
+    .description_date ul li p { 
+        font-size: 18px; 
+    }
+    .description_saller_item h3 {
+        width: 156.943px; 
+    }
+    .learn_more_text p a, .learn_more_text p { 
+        font-size: 16px; 
+    }
+    .product_count_down h3 img {
+        width: 30px;
+    }
+    .deal_count_down ul { 
+        gap: 6px;
+    }
+    .product_count_down .deal_count_down p { 
+        font-size: 18px; 
+    }
+    .product_count_down h3 { 
+        font-size: 18px; 
+    }
+    .product_title h3 { 
+        font-size: 50px; 
+    }
+    .how_to_active p { 
+        font-size: 20px; 
+    }
+    .product_alert p { 
+        font-size: 20px; 
+    }
+    .product_detials_info {
+        padding: 23px 22px; 
+    }
+    .product_solt p { 
+        font-size: 20px; 
+    }
     .deal_icon_width, .deal_icon li:nth-child(3) img, .deal_icon li:nth-child(4) img {
         width: 27px !important;
     }
     .deal_icon_width, .deal_icon li:nth-child(3) img, .deal_icon li:nth-child(4) img {
-        width: 27px !important;
+        width: 29px !important;
     }
     .deal_icon li img {
-        width: 33px !important;
+        width: 38px !important;
     }
     .deal_price > img {
         width: 100px;
     }
-    .header_menu ul { 
+    .header_menu > ul { 
         gap: 24px;
     }
-    .header_menu ul li a img {
+    .header_menu > ul li a img {
         width: 30px;
     }
     .search_header button { 
@@ -179,6 +230,15 @@
 @media all and (max-width: 1550px){
     .shop_list_filter { 
         width: 324px;
+    } 
+    .deal_icon_width.index_dealIcon {
+        width: 22px !important;
+    }
+    .extra_product_page_padding .product_img > img {
+        height: 640px;
+    }
+    .currency_tab { 
+        top: 85px; 
     }
     .cart_unit_price {
         margin-right: 42px;
@@ -212,8 +272,8 @@
         width: 40.083px;
         height: 40px;
     }
-    .product_alert p { 
-        font-size: 18px; 
+    .product_alert p {
+        font-size: 16px;
     }
     .product_share_star > a {
         width: 40px;
@@ -271,10 +331,10 @@
     .search_header input { 
         max-width: 608px; 
     }
-    .header_menu ul li a img {
+    .header_menu > ul li a img {
         width: 30px;
     }
-    .header_menu ul li a img {
+    .header_menu > ul li a img {
         width: 30px;
     }
     .banner_tab ul li:nth-child(3) a img, .banner_tab ul li:nth-child(2) a img {
@@ -326,7 +386,7 @@
         width: 24px;
     }
     .product_img > img {
-        height: 943px;
+        height: 534px;
     }
     .learn_more_text p a, .learn_more_text p {
         font-size: 16px;
@@ -334,8 +394,8 @@
     .btn_1 {
         font-size: 18px;
     }
-    .how_to_active p { 
-        font-size: 18px; 
+    .how_to_active p {
+        font-size: 16px;
     }
     .deal_icon li:nth-child(2) img {
         width: 24px;
@@ -477,7 +537,7 @@
     .banner_main {
         padding: 110px 70px 300px 70px; 
     }
-    .header_menu ul li:nth-child(3) a img {
+    .header_menu > ul li:nth-child(3) a img {
         width: 26px;
     }
     .part_right h3 { 
@@ -521,7 +581,13 @@
         gap: 4px;
     }
     .deal_icon li img {
-        width: 24px !important;
+        width: 30px !important;
+    }
+    .deal_icon li:nth-child(5) img {
+        width: 27px !important;
+    }
+    .deal_icon li:nth-child(6) img {
+        width: 27px !important;
     }
     .deal_icon li:nth-child(2) img {
         width: 24px !important;
@@ -531,6 +597,12 @@
 @media all and (max-width:1440px){
     .product_count_down h3 {
         font-size: 16px;
+    }
+    .learn_more_text p a, .learn_more_text p {
+        font-size: 14px;
+    }
+    .product_img > img {
+        height: 508px;
     }
     .search_header button {
         right: 52px;
@@ -597,10 +669,7 @@
     }
     .product_count_down { 
         padding: 15px 26px; 
-    }
-    .product_img > img {
-        height: 880px;
-    }
+    } 
     .description_date ul li p { 
         flex: 0 0 102px;
     }
@@ -642,13 +711,13 @@
     .search_header input { 
         font-size: 16px; 
     }
-    .header_menu ul li a img {
+    .header_menu > ul li a img {
         width: 25px;
     }
-    .header_menu ul li:nth-child(4) a img {
+    .header_menu > ul li:nth-child(4) a img {
         width: 23px;
     }
-    .header_menu ul li a span { 
+    .header_menu > ul li a span { 
         width: 22px; 
         height: 22px; 
         font-size: 14px; 
@@ -792,7 +861,7 @@
 }   
 
 @media all and (max-width:991px){ 
-    .header_menu ul li a span {
+    .header_menu > ul li a span {
         width: 22px; 
         height: 22px; 
         font-size: 14px; 
@@ -894,16 +963,16 @@
     .logo a > img {
         width: 100px;
     }
-    .header_menu ul li:nth-child(3) a img {
+    .header_menu > ul li:nth-child(3) a img {
         width: 24px;
     }
-    .header_menu ul { 
+    .header_menu > ul { 
         gap: 26px;
     }
-    .header_menu ul li:nth-child(4) a img {
+    .header_menu > ul li:nth-child(4) a img {
         width: 21px;
     }
-    .header_menu ul li a img {
+    .header_menu > ul li a img {
         width: 20px;
     }
     .latest_blog_singal { 
@@ -1863,11 +1932,17 @@
     .deal { 
         padding: 24px 20px;
     }
-    .deal_icon_width, .deal_icon li:nth-child(3) img, .deal_icon li:nth-child(4) img {
-        width: 12px !important;
+    .deal_icon li:nth-child(5) img {
+        width: 16px !important;
     }
+    .deal_icon li:nth-child(6) img {
+        width: 16px !important;
+    }
+    .deal_icon_width, .deal_icon li:nth-child(3) img, .deal_icon li:nth-child(4) img {
+        width: 16px !important;
+    } 
     .deal_icon li img {
-        width: 15px !important;
+        width: 18px !important;
     }
     .deal_icon li:nth-child(2) img {
         width: 16px !important;
@@ -2040,12 +2115,41 @@
     .product_details_area .btn_1 img {
         width: 17px !important;
     }
+    .currency_tab ul li button { 
+        font-size: 16px; 
+    }
+    .curreny_content ul li a { 
+        font-size: 16px; 
+    }
+    .curreny_content ul li a { 
+        padding: 15px 0; 
+    }
+    .curreny_content ul li a img { 
+        width: 25px;
+    }
+    .product_header_details { 
+        flex-direction: column;
+        gap: 8px;
+    }
+    .deal_icon {
+        gap: 5px;
+    }
 }
 
 
 @media all and (max-width: 450px){
     .product_img > img {
         height: 327px;
+        margin: 0;
+    }
+    .currency_tab { 
+        padding: 20px 15px; 
+    }
+    .curreny_content ul li a { 
+        font-size: 14px; 
+    }
+    .currency_tab ul li button { 
+        font-size: 14px; 
     }
     .footer_card ul { 
         justify-content: flex-start;  
@@ -2174,7 +2278,7 @@
     .banner_tab ul { 
         gap: 16px; 
     }
-    .header_menu ul {
+    .header_menu > ul {
         gap: 14px;
     }
     .banner_btn ul {
@@ -2197,7 +2301,7 @@
         flex: 0 0 71%;
     }
     .product_save_del_btn ul li a {
-        padding: 10px 10px; 
+        padding: 10px 6px; 
     }
     .description_saller_item h3 {
         width: 84px;
