@@ -94,6 +94,7 @@ html{
 	flex-wrap: wrap;
 	padding: 54px 0 33px 0;
 	position: relative;
+	align-items: center;
 	border-bottom: 1px solid #dddddd1c;
 }
 
@@ -789,8 +790,10 @@ html{
   position: relative;
 }
 
-.deal_img img {
+.deal_img > img {
 	width: 100%;
+	height: 160px;
+	object-fit: cover;
 }
 
 .deal_heart img{

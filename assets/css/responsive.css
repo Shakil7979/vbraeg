@@ -135,6 +135,9 @@
     .deal_icon { 
         gap: 20px; 
     }
+    .banner_main {
+        padding-bottom: 300px !important;
+    }
     .share_blog { 
         max-width: 54%; 
     }
@@ -590,7 +593,7 @@
         width: 30px !important;
     }
     .deal_icon li:nth-child(5) img {
-        width: 27px !important;
+        width: 25px !important;
     }
     .deal_icon li:nth-child(6) img {
         width: 27px !important;
@@ -604,6 +607,7 @@
     .product_count_down h3 {
         font-size: 16px;
     }
+ 
     .learn_more_text p a, .learn_more_text p {
         font-size: 14px;
     }
@@ -730,6 +734,55 @@
     }
 
 }
+
+@media all and (min-width: 1364px){
+    .header_menu > ul li:nth-child(3) a img {
+        width: 30px;
+    }
+    .header_menu > ul {
+        gap: 20px;
+    }
+    .banner_btn ul li a img { 
+        border: 2px solid #303030;
+        border-radius: 15px;
+        padding: 3px;
+    }
+    .logo a img {
+        width: 150px;
+    }
+    .search_header input::placeholder {
+        color: #fff;
+      }
+    .banner_content h4 { 
+        font-size: 60px; 
+    }
+    .banner_main {
+        padding: 66px 70px 250px 70px;
+    }
+    .review_noti p { 
+        font-size: 16px; 
+    }
+    .review_noti img {
+        width: 45px;
+    }
+    .review_noti p a {
+        padding: 5px 8px; 
+        font-size: 16px; 
+    }
+    .deal_single h3 {
+        font-size: 18px;
+    }
+    .deal_price {
+        margin: 6px 0 16px 0;
+    }
+    .mobile_none_deal .deal_price span, .comming_soonsss .deal_price span {
+ 
+        font-size: 16px; 
+    }
+      
+}
+
+
 @media all and (max-width:1200px){
     .search_header input {
         max-width: 100%;
