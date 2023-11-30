@@ -94,6 +94,17 @@ $(document).ready(function(){
     $(document).on('click','.search_click',function(){
       $('.search_header').slideToggle();
     });
+
+    $(document).on('click','.banner_tab ul li a img',function(){
+        $('.banner_drop_down').hide();
+        var get_drop =   $(this).closest('.banner_tab ul li').find('.banner_drop_down').show();
+ 
+        if(get_drop.length == 1){  
+          $(this).closest('.banner_tab ul').addClass('paddng_bottom_banner');
+        }else{ 
+          $(this).closest('.banner_tab ul').removeClass('paddng_bottom_banner');
+        }
+    });
  
     // var windowsize = $(window).width(); 
     

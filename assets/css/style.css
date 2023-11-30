@@ -292,14 +292,40 @@ html{
 	flex-wrap: wrap;
 	align-items: center;
 	padding: 36px 0 59px 0;
+	position: relative;
 }
 
-.banner_tab ul li {
+.banner_tab > ul li {
 	padding: 0 30px;
+}
+
+.shop_sub_tab.banner_drop_down {
+	position: absolute;
+	z-index: 99;
+	width: 100%;
+	left: 0;
+}
+
+.banner_drop_down{
+	display: none;
+}
+
+.banner_drop_down > ul li {
+	padding: 0;
+}
+
+.banner_drop_down ul {
+	display: flex;
+	gap: 0;
+	justify-content: flex-start;
 }
 
 .banner_tab ul li a img {
 	width: 56px;
+}
+
+.paddng_bottom_banner{
+	padding-bottom: 118px !important;
 }
 
 .banner_tab ul li span {
@@ -1893,14 +1919,14 @@ html{
 
 
 .shop_sub_tab ul li a {
-	color: #FFF; 
-	font-size: 24px;
+	color: #FFF;
+	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-	padding: 10px 15px;
+	padding: 6px 12px;
 	border: 1px solid #ddd;
-	border-radius: 10px;
+	border-radius: 5px;
 	display: inline-block;
 }
 
